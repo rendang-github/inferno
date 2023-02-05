@@ -92,6 +92,7 @@
 
 .tright1 td:nth-child(1), .tright1 th:nth-child(1) {
     text-align: right;
+    padding-right: 10px;
 }
 
 .tright2 td:nth-child(2), .tright2 th:nth-child(2) {
@@ -172,10 +173,10 @@ body {
 h1 {
     column-span: all;
     font-family: moria;
-    font-size: 80px;
+    font-size: 60px;
     color: #750800;
     text-align: center;
-    line-height: 150%;
+    line-height: 100%;
     /*break-before: always;*/
 }
 
@@ -184,12 +185,11 @@ h2 {
     font-family: palatino, serif;
     font-size: 38px;
     color: #7a200d;
-    border-top: 2px solid rgba(122, 32, 13, 0.1);
+    border-top: 2px solid rgba(122, 32, 13, 0.3);
     margin-top: 1em;
     margin-bottom: 0.4em;
     padding-top: 0.5em;
     font-variant: small-caps;
-    /*break-before: always;*/
 }
 
 h3 {
@@ -262,13 +262,51 @@ h5 {
         <div class="background">
         <div class="page">
             <h1>Call of the Inferno</h1>
-            <img class="hero" src="img/tunnel_mask.png">
+            <img class="hero" src="img/hell4.png">
             <div class="stylecap"><span>C</span></div>aptured from your home and offered as a sacrifice to an infernal overlord, you are pressed into the service of a lord of Hell against your will.  Do you choose to serve your lord faithfully, or do you rebel and work to thwart his evil designs?  Do you try to free your soul from his service, or do you seek to supplant him and seize his infernal power as your own?  The outer planes are full of logical impossibilities, contradictions, and horrors.  Tread carefully - most will lose their grasp on reality and descend into the mouth of madness, but the few, the strong, the worthy will begin to understand the true nature of the multiverse and ascend to enlightenment.
         </div>
 
         <div class="page">
-            <h2>Game Mechanics</h2>
-            <div class="stylecap"><span>T</span></div>his campaign is based on the core D&amp;D 5E rule set, however the multiverse is a strange place with a variety of magical and psychic effects which may aflict or assist the characters.
+            <h2>Character Creation</h2>
+            <div class="stylecap"><span>T</span></div>his campaign is based on the core D&amp;D 5E rule set, however the multiverse is a strange place with a variety of magical and psychic effects which may afflict or assist the characters.
+
+            <h3>Ability Scores</h3>
+            <p>
+            Characters are created according to the point buy system.  Characters start with <strong>38</strong> points.  Points can be spent improving ability scores, but the cost to improve a statistic increases substantially the higher it gets.  See table below.  Ability scores can also be reduced, giving players a small amount of additional character points to boost other statistics.
+            </p>
+
+            <p>
+            A 1st level character may have a maximum ability score of 18 for any given statistic, inclusive of racial bonuses.
+            </p>
+            <p>
+            Each time a character gains an additional level, an additional ability score point is gained.  This is in addition to any ability score improvement granted by the character's class progression and/or feats.  Unspent ability score points may be saved for use at a later time. 
+            </p>
+
+
+            <h5>Ability Score Cost</h5>
+            <table class="green tcenter1 tcenter2 tcenter3">
+                <tr><th>Ability Score</th><th>Initial cost</th><th>Improvement Cost</th></tr>
+                <tr><td>18</td><td>19</td><td>n/a</td></tr>
+                <tr><td>17</td><td>15</td><td>4</td></tr>
+                <tr><td>16</td><td>12</td><td>3</td></tr>
+                <tr><td>15</td><td>9</td><td>3</td></tr>
+                <tr><td>14</td><td>7</td><td>2</td></tr>
+                <tr><td>13</td><td>5</td><td>2</td></tr>
+                <tr><td>12</td><td>4</td><td>1</td></tr>
+                <tr><td>11</td><td>3</td><td>1</td></tr>
+                <tr><td>10</td><td>2</td><td>1</td></tr>
+                <tr><td>9</td><td>1</td><td>1</td></tr>
+                <tr><td>8</td><td>0</td><td>1</td></tr>
+                <tr><td>7</td><td>-1</td><td>1</td></tr>
+                <tr><td>6</td><td>-2</td><td>1</td></tr>
+                <tr><td>5</td><td>-4</td><td>2</td></tr>
+            </table>
+
+            The <em>initial cost</em> represents the character point cost to buy the statistic at character creation time.  The <em>improvement cost</em> is the number of points required to raise the ability score from it's current value to the next highest value.
+
+            <div class="flavour">
+                <strong>Grognak the Barbarian</strong> cares only for STR, CON, and DEX, so his player selects a starting score of 5 for WIS, INT, and CHA, giving him more character points to spend on his "important" ability scores, selecting 18 for STR and CON, and 16 for DEX.  The cost of Grognak's STR, CON, DEX, INT, WIS, and CHA add up to 19 + 19 + 12 - 4 - 4 - 4 = 38.<br/>Unfortunately Grognak was not smart, cunning, or well liked and later died after mistaking a large stone for a potato.  Had Grognak lasted until 3rd level he could have used those additional character points to improve his INT, WIS or CHA from a 5 to a 6, perhaps granting him the knowledge that the rock was not a potato, the common sense to not eat things you find on the ground, or the personality that would motivate people to assist him rather than point and laugh as he choked to an entirely avoidable death.
+            </div>
 
             <h3>Alignment</h3>
             Alignment is real and has actual in-game consequences.  There are no innate disadvantages to any particular alignment, however managing your relationship with the other party members will be important.  You can be disagreeable, but working together will generally be in your best interests.
@@ -313,25 +351,69 @@ h5 {
                 <tr><td>6th</td><td>Applies to all saving throws and ability checks</td></tr>
                 <tr><td>11th</td><td>Applies to all saving throws, ability checks and attack rolls</td></tr>
             </table>
+        </div>
 
-            <h3>Sanity</h3>
+        <div class="page">
+            <h2>Madness</h2>
+
             The multiverse contains many places and situations that challenge the characters understanding of the true nature of reality.  Observing and being subjected to unspeakable horrors can cause one to lose ones mind.  Conversely, characters that can hold it together under difficult circumstances can gain a better understanding of reality.  We call this grasp of reality sanity, and this is represented in game as a sanity value.  Similar to hit points, losing your sanity means losing you mind and your life.  Unlike hit points, sanity points are not an all or nothing proposition.  You can be at 1 hit point and be just as effective as someone at full hit points, however losing sanity points has in-game effects, as does gaining sanity.
+
+            <h3>Sanity Points</h3>
+
+            Each character starts with <strong>10</strong> sanity points.  Sanity points may be gained and lost during the course of the campaign.  Lose too many and your character's mental state may be brought to the point where they are no longer functional beings, the mortal equivalent of death.
 
             <h5>Sanity Point Effects</h5>
             <table class="green tcenter1 tleft2 tleft3">
-                <tr><th>Points</th><th>Description</th><th>Effects</th></tr>
-                <tr><td>0</td><td>Lost</td><td><span class="spoiler">spoilers spoilers spoilers spoilers</span></td></tr>
-                <tr><td>2</td><td>Certifiable</td><td><span class="spoiler">spoilers spoilers spoilers spoilers</span></td></tr>
-                <tr><td>4</td><td>Amnesiac</td><td><span class="spoiler">spoilers spoilers spoilers spoilers</span></td></tr>
-                <tr><td>6</td><td>Unbalanced</td><td><span class="spoiler">spoilers spoilers spoilers spoilers</span></td></tr>
-                <tr><td>8</td><td>Confused</td><td><span class="spoiler">spoilers spoilers spoilers spoilers</span></td></tr>
-                <tr><td>10</td><td>Foggy</td><td><span class="spoiler">spoilers spoilers spoilers spoilers</span></td></tr>
-                <tr><td>12</td><td>Clear of mind</td><td><span class="spoiler">spoilers spoilers spoilers spoilers</span></td></tr>
-                <tr><td>14</td><td>Free thinker</td><td><span class="spoiler">spoilers spoilers spoilers spoilers</span></td></tr>
-                <tr><td>16</td><td>Mental Adept</td><td><span class="spoiler">spoilers spoilers spoilers spoilers</span></td></tr>
-                <tr><td>18</td><td>Mind Master</td><td><span class="spoiler">spoilers spoilers spoilers spoilers</span></td></tr>
-                <tr><td>20</td><td>Enlightened</td><td><span class="spoiler">spoilers spoilers spoilers spoilers</span></td></tr>
+                <tr><th>Points</th><th>Title</th><th>Effects</th></tr>
+                <tr><td>0</td><td>Lost</td><td>Permanent mental breakdown.  Roll a new character</td></tr>
+                <tr><td>2</td><td>Psychotic</td><td>+1 on saves, disadvantage on skill checks, +2 to attack rolls.<br/><em>hidden curse</em></td></tr>
+                <tr><td>4</td><td>Demented</td><td>Disadvantage on skill checks.<br/><em>hidden curse</em></td></tr>
+                <tr><td>6</td><td>Certifiable</td><td>-1 to saves and skill checks.<br/><em>hidden curse</em></td></tr>
+                <tr><td>8</td><td>Disturbed</td><td>Insanity table roll for affliction.<br/><em>hidden curse</em></td></tr>
+                <tr><td>10</td><td>Uncertain</td><td><em>hidden curse</em></td></tr>
+                <tr><td>12</td><td>Clear of mind</td><td>Not afflicted</td></tr>
+                <tr><td>14</td><td>Free thinker</td><td><em>hidden boon</em></td></tr>
+                <tr><td>16</td><td>Mental Adept</td><td><em>hidden boon</em></td></tr>
+                <tr><td>18</td><td>Mind Master</td><td><em>hidden boon</em></td></tr>
+                <tr><td>20</td><td>Enlightened</td><td><em>hidden boon</em></td></tr>
             </table>
+
+            <h3>Affliction types</h3>
+
+            Upon dropping to a sufficient sanity level to aquire an affliction, the player should roll 1d20 to determine what the affliction is.  Players are expected to role play the affliction appropriately, starting with mild symptoms, and getting progressively worse as their sanity decreases.
+
+            <table class="green tright1 tleft2">
+                <tr><th>d20</th><th>Afflication</th></tr>
+                <tr><td>1</td><td>Dipsomania</td></tr>
+                <tr><td>2</td><td>Kleptomania</td></tr>
+                <tr><td>3</td><td>Schizoid</td></tr>
+                <tr><td>4</td><td>Pathological liar</td></tr>
+                <tr><td>5</td><td>Monomania</td></tr>
+                <tr><td>6</td><td>Dementia Praecox</td></tr>
+                <tr><td>7</td><td>Melancholia</td></tr>
+                <tr><td>8</td><td>Mehalomania</td></tr>
+                <tr><td>9</td><td>Delusional Insanity</td></tr>
+                <tr><td>10</td><td>Schizophrenia</td></tr>
+                <tr><td>11</td><td>Mania</td></tr>
+                <tr><td>12</td><td>Lunacy</td></tr>
+                <tr><td>13</td><td>Paranoia</td></tr>
+                <tr><td>14</td><td>Manic Depressive</td></tr>
+                <tr><td>15</td><td>Hallucinatory Insanity</td></tr>
+                <tr><td>16</td><td>Sado Masochism</td></tr>
+                <tr><td>17</td><td>Homicidal Mania</td></tr>
+                <tr><td>18</td><td>Hebephrenia</td></tr>
+                <tr><td>19</td><td>Suicidal Mania</td></tr>
+                <tr><td>20</td><td>Catatonia</td></tr>
+            </table>
+
+            <h3>Curing Madness</h3>
+
+            <p>
+            The only way to permanently cure an affliction is to raise your sanity points back above the level at which the affliction was obtained.  If the character's points drop below that level again, a new affliction is acquired and the player must re-roll on the affliction table.
+            </p>
+            <p>
+            Players may use magical healing to temporarily raise their sanity points back to at most a value of 10.  Example spells which may help with this include <em>Calm Emotions</em>, <em>Lesser Restoration</em>, <em>Greater Restoration</em>, and <em>Heal</em>.
+            </p>
         </div>
 
 
@@ -340,15 +422,7 @@ h5 {
             <h2>New Races</h2>
             Most campaigns take place on the prime material plane, where there is a fantastic multitude of available player races to play from the now standard elves, dwarves, and hobbits and other staples of classic fantasy fiction, to exotic minotaurs, lizard men, and demonspawn.  Yet this pales in comparison to the mind bending variety of possible player character races on the planes such as Genasi, Gith, Formians, and many more.  In this campaign, players will be able to create characters from any reasonable race, and maybe just some unreasonable ones!  Players can work with the DM to create a novel race around a particular idea to provide a memorable but balanced playable race concept.
 
-            <h3>Bunnykins</h3>
-            <p>
-            <span class="ipsum">Quisque lorem eros, aliquam vulputate mollis sit amet, blandit a lacus. Vestibulum elit nunc, tincidunt id egestas eget, rutrum nec nisl. Quisque semper purus sit amet tortor vestibulum, et faucibus orci faucibus. Phasellus urna nisl, eleifend a porta in, faucibus et quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam posuere vitae metus et ultrices. Sed sit amet congue sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec rutrum felis eu erat fermentum facilisis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ligula eros, gravida eu ex sed, vulputate viverra tellus. Nam ut turpis malesuada dui elementum ultricies. Praesent enim nunc, blandit a aliquam nec, tincidunt nec lorem. Proin et metus est.</span>
-            </p>
-            <h4>Stuff</h4>
-            <p>
-            <span class="ipsum">Integer eu auctor ante. In dolor ipsum, tempor non sapien vel, pulvinar pulvinar turpis. Curabitur in pretium mauris, eget condimentum risus. Donec ac ipsum accumsan, dignissim erat vitae, interdum neque. In rutrum mi at mattis vestibulum. Morbi vel tempus leo. Vestibulum vitae ligula quam. Donec efficitur augue non ex venenatis, ac imperdiet mauris luctus. Aliquam dapibus eleifend felis quis ornare. Donec iaculis, nisl ut luctus lobortis, tortor metus auctor felis, ac finibus arcu lacus sed lacus. Nullam lobortis, quam eget consequat volutpat, diam purus malesuada orci, sed dictum erat arcu at velit. Phasellus in arcu ipsum. Integer quis volutpat nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas varius eros sed est efficitur, sed aliquet ex accumsan. Nullam et placerat velit.</span>
-            </p>
-
+            <h3>TBD</h3>
             <img class="inline" src="img/bunny_mask.png">
         </div>
 
@@ -360,11 +434,6 @@ h5 {
 
             <h3>TBD</h3>
             <img class="hero" src="img/demon_mask.png">
-            <span class="ipsum">Aliquam eleifend lectus ipsum, et feugiat nibh scelerisque non. Aenean non nisl eget velit tincidunt malesuada et vitae enim. Nam ultrices, augue id sodales blandit, neque purus pretium massa, sed porta eros arcu eu massa. Suspendisse eget luctus ligula. Integer in facilisis ex, sed auctor nunc. Quisque ut libero urna. Ut vitae neque tristique, ultricies diam sed, consequat elit. Cras feugiat porttitor lacus in facilisis. Fusce placerat enim eget tristique suscipit. Phasellus volutpat malesuada pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-
-                Maecenas tempus dui sapien, vitae dignissim nibh dapibus vitae. Fusce iaculis lorem ante, id sodales lorem mattis vitae. Vivamus suscipit, orci et maximus volutpat, diam diam posuere arcu, ac gravida metus tortor vitae dolor. Pellentesque enim est, lacinia sit amet sapien quis, consectetur viverra ex. Sed luctus scelerisque congue. Proin vitae neque fermentum, ultrices leo at, finibus massa. Quisque nec mi turpis. Donec facilisis ac tellus quis luctus. Sed fringilla vestibulum augue. Sed venenatis et erat ut efficitur. Donec sed suscipit eros. Aliquam rhoncus nibh urna, et interdum velit auctor vitae. In porta, nunc vitae euismod dictum, nisl augue semper justo, ac laoreet arcu odio consectetur nisl. Proin ultricies sollicitudin ante, sit amet malesuada sapien eleifend non. Vivamus mollis at lacus eget imperdiet.
-
-                Nullam at sagittis lectus, sit amet blandit sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas elementum sodales nibh, ac consectetur metus suscipit ut. Integer consequat, dui eget tincidunt varius, leo metus iaculis tortor, id sagittis leo risus eu leo. Morbi dui ante, ullamcorper quis auctor quis, maximus ac neque. Proin non dignissim justo. Donec risus quam, interdum a ipsum ullamcorper, viverra blandit quam. Nunc feugiat diam id nunc tincidunt pretium ac ut magna. Fusce sit amet condimentum dui, vitae dignissim lorem. Donec pulvinar, nulla vel elementum semper, lorem ex scelerisque turpis, sed bibendum massa quam non odio. Nunc vehicula viverra tortor quis auctor. Suspendisse congue ultrices nibh. Sed feugiat est id ante congue finibus. Etiam sit amet sem et ipsum convallis sodales. Ut erat nibh, tempus vel placerat at, consectetur ac arcu. Praesent aliquet dui id augue sollicitudin bibendum.</span>
         </div>
         <div class="page">
             <h2>Magic Items</h2>
@@ -374,26 +443,33 @@ h5 {
 
             <h4>Fractum Ostium</h4>
             <img class="inline" src="img/ossium_mask.png">
-            <span class="ipsum">Curabitur id arcu aliquam, ultrices nisi sed, imperdiet turpis. Pellentesque commodo, arcu sed fringilla scelerisque, massa est finibus magna, a congue leo diam id mi. Donec pharetra in sem vel feugiat. Morbi iaculis pulvinar venenatis. Donec feugiat molestie feugiat. Nullam a mattis est. Quisque pharetra consectetur porta. Nullam id egestas nisi. Suspendisse purus velit, pharetra ac gravida porta, placerat quis turpis. Integer dui mi, pretium sed tempus et, pellentesque et lectus. Mauris a placerat dolor. Vivamus suscipit luctus arcu, tristique placerat lacus dignissim et. Sed laoreet pharetra eleifend. Nam velit nisi, sagittis at neque commodo, fermentum convallis velit. Integer ac pulvinar arcu. Nulla semper diam ac tincidunt cursus.
+            TBD
+        </div>
 
-                Sed porttitor ligula eu justo eleifend blandit. Aliquam erat volutpat. Nullam et purus ut urna feugiat iaculis non sit amet mi. Nam vel sollicitudin orci. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam libero tellus, mollis at ligula at, porta scelerisque dui. Sed libero ligula, porttitor ac sollicitudin id, semper et velit.</span>
-
-            <div class="flavour">
-                <h5>Hey: Look Here</h5>
-                Etiam at viverra orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi auctor justo vitae eros imperdiet ullamcorper. Aenean tempor nisi vel est sollicitudin volutpat. Suspendisse eget quam ornare risus laoreet pretium. Ut vestibulum ut ex ac pharetra. Nullam lacinia turpis sed cursus accumsan. Sed venenatis semper lacus vitae dapibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam ac ornare ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam tempus metus a blandit tincidunt.
-            </div>
-
-
-            <span class="ipsum">Suspendisse interdum enim aliquam, euismod est ac, pharetra purus. Proin rhoncus semper enim, sed vulputate nunc tristique ac. Morbi sit amet velit nec nisi scelerisque laoreet non in est. Quisque ut lorem sit amet metus pellentesque elementum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse pellentesque mauris purus, sit amet venenatis dolor tempus a. In hac habitasse platea dictumst. Ut nec interdum lorem. Suspendisse neque erat, lacinia vel orci tempor, ultricies pretium mi. Integer ut mauris urna. Fusce vel quam viverra, suscipit turpis sit amet, malesuada arcu.</span>
+        <div class="page">
+            <h2>Player Characters</h2>
+            Descriptions of the player characters in the campaign will be written here for reference.  They are listed in the alphabetical order of the player's name.
+            <h3>Ben Pancoast's Character</h3>
+            TBD
+            <h3>Chris Johnson's Character</h3>
+            TBD
+            <h3>Chris Sweitzer's Character</h3>
+            TBD
+            <h3>Dave Feldman's Character</h3>
+            TBD
+            <h3>Jason Pancoast's Character</h3>
+            TBD
+            <h3>Justin Corcoran's Character</h3>
+            TBD (c'mon dude, you know you want to)
+            <h3>Steve Graham's Character</h3>
+            TBD
+            <h3>Steve Manning's Character</h3>
+            TBD
         </div>
 
         <div class="page">
             <h2>Non Player Characters</h2>
-
-            <span class="ipsum">Aenean sed condimentum nunc, at convallis dui. Fusce quis blandit arcu, in euismod dui. Pellentesque porttitor est vitae pharetra ultrices. Vestibulum enim sapien, rhoncus vel efficitur sed, facilisis id mi. Duis a tortor id ligula dictum sollicitudin a eget arcu. Vivamus vel volutpat metus, nec cursus nisi. Cras et laoreet nisi, vitae tempor nunc. Mauris ac tincidunt nulla. Proin in imperdiet lectus. Vivamus id eros non mi eleifend bibendum bibendum eu risus. Donec ut ante quis ante luctus ultrices. Praesent non eleifend ligula, feugiat volutpat sapien. Sed et dapibus dui. Donec porttitor orci non odio imperdiet fringilla mattis eu mauris. Nam aliquam diam id est varius interdum.
-
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed pretium eros vel scelerisque sodales. Curabitur leo felis, tempor nec augue vel, porttitor suscipit libero. Vestibulum vitae neque eget erat tristique dapibus eget at lacus. Vivamus sit amet luctus leo, at accumsan lectus. Duis pulvinar tincidunt enim, eget consectetur urna tristique non. Curabitur lectus mi, ultrices nec auctor at, tristique ac est. Nam pretium sodales leo. Integer dictum tincidunt dolor ut lacinia. Vestibulum tincidunt bibendum mollis.</span>
-
+            TBD
         </div>
 
         <div class="page">
@@ -403,103 +479,27 @@ h5 {
 
             <h3>The Abyss</h3>
             <img class="inline" src="img/abyss2_mask.png">
-
-            <span class="ipsum">Duis libero nibh, gravida vel commodo ut, hendrerit a purus. Nam laoreet, enim et posuere pharetra, eros metus ullamcorper dolor, ac sollicitudin erat elit ut libero. Phasellus vulputate, lacus in convallis dapibus, eros est eleifend enim, sed tempus tortor turpis tempor leo. Nunc ultrices ex consectetur commodo dignissim. Etiam nec egestas sem. Vestibulum dictum porttitor leo vitae tempor. Morbi sagittis urna vitae elit tincidunt scelerisque. Ut nisl diam, auctor cursus malesuada eget, pretium sed dui. Sed euismod nec nunc ac posuere. Proin fringilla in risus quis porta. Suspendisse mattis nibh ac libero feugiat porta. Donec eu erat erat. Morbi sed ipsum interdum purus sodales dignissim.
-
-                Suspendisse tristique ligula metus, quis dictum quam facilisis in. Integer imperdiet eros ut ex ornare sollicitudin. Phasellus condimentum dolor eget urna blandit sodales. Quisque dignissim, nisl vitae suscipit iaculis, nunc augue vehicula tellus, feugiat blandit massa nulla nec nibh. Nam aliquet lacinia velit, ut malesuada odio cursus ut. Sed finibus augue nec lacus dictum congue. Vivamus id lectus diam.</span>
-
+            TBD
 
             <h3>The Nine Hells</h3>
-
-            <span class="ipsum">Sed aliquam libero lacus, in tincidunt orci euismod ut. Maecenas pellentesque id odio vel gravida. Proin faucibus varius nisi ut finibus. Morbi et arcu quis orci dapibus lacinia. Mauris vitae blandit arcu. Donec in ultricies mi. Ut rhoncus mattis finibus. Phasellus sed nisi massa. Maecenas mattis risus vitae est lacinia molestie. Suspendisse maximus magna sit amet sem interdum ultricies. Praesent ac laoreet erat. Cras sed pretium tellus, et aliquet augue. Aliquam eu tincidunt lectus. Suspendisse tempus tincidunt dapibus. Praesent ornare nisi purus, ultrices gravida massa consequat ut.</span>
-
             <img class="inline" src="img/hell2_mask.png">
-
-            <h4>Some more stuff</h4>
-            <span class="ipsum">Praesent non accumsan nisl. Proin a enim ac nulla molestie porttitor. Curabitur enim erat, imperdiet sit amet convallis nec, faucibus non sem. Nulla ultrices justo leo, in suscipit est sodales vel. Vestibulum vel purus luctus, consequat tortor sed, lobortis justo. Vivamus finibus sapien a ipsum gravida facilisis. Suspendisse venenatis nec ipsum vel tempus. Integer pulvinar erat nec nisl vestibulum, auctor interdum sapien consequat. Morbi facilisis gravida laoreet. Ut pellentesque aliquet urna. Cras nisi erat, tincidunt id neque ut, dignissim ultricies erat. Donec tincidunt vel eros id scelerisque.
-
-                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas pretium nisi quam, nec elementum nisl auctor feugiat. Ut dui neque, cursus nec elit vitae, congue eleifend dolor. Maecenas consequat ex sit amet mollis sollicitudin. Nullam eu eros dolor. Etiam vel mauris luctus, congue libero aliquam, eleifend urna. Nullam pulvinar eget ipsum quis efficitur. Maecenas dapibus convallis eros, eget vehicula ligula. Ut blandit in ex ac lacinia. Praesent sed tellus et erat mattis dapibus nec id ipsum.</span>
             <p class="characteristic">
-            <span class="ipsum"><strong>Mauris</strong> malesuada semper sapien, vel fringilla nibh congue vitae. Proin ornare, elit in finibus euismod, sapien nulla ultricies purus, id pharetra lacus sem ut neque. Morbi lacinia neque tempus lectus gravida tristique. Nunc accumsan tortor eget nunc porttitor congue. Etiam mattis consectetur velit sed commodo. Vivamus ornare lectus velit. In faucibus risus sed augue consectetur, sit amet faucibus nulla rutrum. Pellentesque vehicula fringilla rutrum. Nam placerat placerat vulputate. Curabitur ut turpis porttitor nisl varius blandit sit amet eu nibh. Nunc ultricies elit vel risus rutrum auctor. Vivamus sodales non erat a tempor. Fusce dictum commodo metus eu maximus. Vestibulum nec urna tempor, eleifend nunc non, eleifend est. Nulla fermentum sem nec augue sodales condimentum. Donec arcu massa, sodales sit amet suscipit sed, hendrerit ac ipsum.</span>
+            TBD
             </p>
-            <div class="img99">
-                <img class="inline99" src="img/tunnel_mask.png">
-            </div>
-
         </div>
         <div class="page" style='break-after: auto;'>
             <h2>Journal</h2>
 
+            <p>
             The party's adventures through each session will be documented here.  All too often, heroic deeds, clever solutions, and lucky shots are lost in time.  In this adventure we will write up the deeds of each session, so that they may be remembered forever.
+            </p>
+
+            <p>
+            Each session will conclude with one of the players being selected to write up the events that occurred in the narrative voice of their own character.  The player will be rewarded with <strong>Inspiration</strong>.
+            </p>
 
             <h3>Day One</h3>
-
-            <span class="ipsum">Suspendisse eleifend tortor libero, eget consequat mauris rhoncus a. Nunc elit purus, pulvinar id quam a, blandit suscipit nibh. In pulvinar nisl at ornare fermentum. Quisque eget rhoncus magna. Donec condimentum, nunc at porta molestie, nibh sapien ultrices massa, non facilisis enim velit sit amet erat. Aliquam accumsan orci nisl, nec porttitor lectus interdum non. Cras vitae feugiat arcu. Vestibulum ut felis id nibh blandit ultrices. Proin facilisis, ligula eu dictum auctor, lacus mauris tincidunt orci, nec pharetra risus est at purus. Vestibulum vel magna diam. Aliquam ac massa lacus. Phasellus dictum lorem neque, sit amet ultrices ligula porta id.
-
-                Nulla sit amet fermentum lectus. Curabitur bibendum metus ut neque tincidunt eleifend. Nullam nec eros vel orci vehicula fringilla. Ut pulvinar sodales mi, eget efficitur leo sodales et. Integer ut interdum ligula. Nunc sagittis, metus id volutpat facilisis, tortor tortor ornare nulla, ut ornare orci orci ac dui. Donec blandit dui eu dui efficitur vehicula. Vivamus porta, nibh non tincidunt laoreet, neque sapien facilisis est, sit amet efficitur mi augue in tellus. Ut eget suscipit justo. Donec feugiat sit amet orci quis tempus.</span>
-
-
-            <!--
-                Quisque placerat dolor eros, eu lacinia enim varius quis. Etiam interdum lectus et enim congue congue. Nulla facilisi. Sed a leo dui. Donec et quam consectetur, vestibulum leo ac, ullamcorper elit. Sed eu malesuada odio. Donec eu mi at dui hendrerit molestie. Phasellus efficitur commodo diam, tincidunt tristique arcu dapibus non.
-
-                Aliquam consectetur orci eu est fermentum iaculis. Morbi ac mattis enim. Nunc sit amet diam mollis, blandit tellus laoreet, aliquam elit. Nullam eget mauris leo. Aenean turpis ligula, vehicula pharetra finibus vel, viverra quis leo. Sed sit amet rutrum est. Praesent et viverra justo. Sed fermentum mi a egestas rhoncus. Sed nec erat quam. Donec suscipit dui et lorem pulvinar suscipit. Curabitur eget rutrum elit, vel rhoncus erat. Suspendisse feugiat, justo euismod posuere laoreet, elit sapien varius lectus, eu hendrerit purus dui in risus.
-
-                Integer pellentesque lacus ut sapien rutrum feugiat. Proin volutpat arcu nec massa tincidunt sodales. Proin elementum eleifend consequat. Aliquam erat volutpat. Nulla ut posuere libero, tristique bibendum nulla. Vestibulum in libero id turpis accumsan vehicula. Quisque sed erat maximus, pulvinar odio maximus, euismod ex. Aliquam sed elit vitae lectus dapibus scelerisque eget et mi. Fusce consequat, enim at mattis fermentum, est enim pharetra quam, at pharetra ex mauris in augue. Curabitur tincidunt ut elit vel consequat.
-
-                Mauris laoreet cursus faucibus. Maecenas ac dapibus justo, a vulputate nulla. Vivamus dictum mauris at maximus vehicula. Aenean bibendum massa at velit tincidunt rutrum. Pellentesque gravida pellentesque aliquam. Quisque nunc dui, euismod a pulvinar vitae, tristique quis ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse facilisis eros eget nulla condimentum, suscipit pellentesque eros pretium. In molestie erat in turpis ultricies, eu pulvinar diam viverra. Nullam et elit ac ex efficitur porta vel at augue. Integer neque metus, dignissim ac ante vitae, lobortis auctor nulla. Integer feugiat nibh vel est mollis facilisis. Fusce semper rutrum gravida.
-
-                Praesent laoreet felis diam. Proin finibus, justo vel condimentum malesuada, sapien tellus tempor est, lobortis volutpat ex urna quis nibh. Nulla blandit leo non condimentum elementum. Pellentesque in tempor nisi. Donec quam ex, venenatis eget interdum ut, lacinia sed sapien. Maecenas nec suscipit tortor, eget tincidunt metus. Duis tortor odio, pellentesque ac vestibulum a, vehicula et est. Maecenas rutrum turpis vel ex tristique mattis. Sed a orci et sem hendrerit lacinia. Duis quis mattis augue, non congue ligula. Duis ullamcorper mattis eros, eget elementum nulla vehicula nec.
-
-                Praesent vel placerat nulla. Curabitur interdum porttitor velit a malesuada. Fusce ac euismod lacus. Duis eleifend aliquet egestas. Pellentesque commodo, erat id ultrices iaculis, arcu ligula dapibus nisi, nec volutpat quam massa vel elit. Donec molestie erat in eros mattis, quis venenatis purus luctus. Curabitur maximus enim ut rutrum suscipit. Integer nec gravida tellus. Mauris blandit lectus a dolor congue cursus. Nunc a posuere tortor. Vivamus elit nulla, gravida ut velit quis, consequat ultricies sapien. Praesent congue porttitor mauris et consequat. Sed tellus arcu, pharetra at ante eget, sollicitudin pulvinar sapien. Nullam vel pellentesque ligula.
-
-                Aliquam scelerisque ligula ullamcorper lectus sagittis malesuada. Sed cursus, erat at commodo tristique, quam dui hendrerit libero, sit amet vehicula dolor orci facilisis nunc. Nam consectetur pulvinar purus, ut dignissim dui. Sed dictum ante quis risus ullamcorper cursus. Aenean efficitur nulla ac nibh ultricies consequat. Vestibulum luctus diam quis massa semper, ut lacinia sem rutrum. Suspendisse at egestas neque.
-
-                Nullam at lacus facilisis, interdum ex vitae, venenatis mi. Fusce quis suscipit lacus, at dapibus leo. Sed id felis elit. Aenean felis ligula, porttitor sit amet libero eget, vestibulum euismod dui. Curabitur hendrerit nisl ut hendrerit sollicitudin. Sed ut vulputate orci, non cursus turpis. Integer ut accumsan orci. Nullam non venenatis tortor, id venenatis dui. Aenean id euismod purus. Nunc accumsan nulla eu dolor lobortis congue.
-
-                Vestibulum maximus tempus ligula et maximus. Praesent efficitur ac libero et posuere. Nullam odio dolor, posuere semper mollis at, maximus ut odio. Proin eu blandit orci. Etiam risus quam, consectetur eu bibendum nec, facilisis ac lorem. Curabitur ultrices mi at tortor volutpat pellentesque. Duis faucibus aliquam urna. Fusce nec ipsum vel purus porttitor commodo. Maecenas ac pulvinar nisl. Nulla at tortor fermentum, aliquet nunc vel, auctor nisl. Morbi sed consequat nisl, ultricies convallis sem.
-
-                Aliquam erat volutpat. Sed blandit aliquet metus nec scelerisque. In tincidunt dolor vel maximus malesuada. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer elementum, purus sed rutrum maximus, erat risus fermentum sem, a cursus odio ante nec nunc. Vivamus metus libero, accumsan non volutpat vitae, ultricies sed dui. Aliquam accumsan ex pellentesque vehicula fringilla. Proin luctus, velit id consectetur hendrerit, enim velit vehicula justo, et rhoncus lorem turpis nec ipsum. Fusce sit amet magna commodo, aliquam orci vel, luctus nibh.
-
-                Quisque sed nisl bibendum velit egestas egestas. Quisque purus nisi, sollicitudin et dui quis, commodo convallis leo. Nulla commodo rutrum tristique. Aenean quis sapien nec magna pharetra maximus a ut felis. Etiam scelerisque a nibh at eleifend. Duis volutpat ac leo vel vehicula. Sed auctor maximus orci in molestie. Proin et ullamcorper sapien. Sed libero nisl, tristique at dignissim id, vulputate eu massa. Nulla blandit libero sit amet est ultricies, vitae iaculis augue mattis. Mauris pharetra pellentesque nunc laoreet condimentum. Praesent mollis in est vel blandit. Proin nunc nisl, consectetur nec tincidunt sed, ullamcorper id purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
-
-                Aliquam egestas, odio at lacinia ornare, purus velit vehicula purus, quis aliquam leo neque ac nibh. Sed lacinia est nisl, elementum finibus ante venenatis eu. Vestibulum id est eget urna consectetur scelerisque. Aliquam rhoncus non risus a tincidunt. Ut laoreet aliquam nisl, ac ornare lorem ullamcorper euismod. Fusce porttitor enim in eros rutrum scelerisque. Ut consequat porttitor leo eu vulputate. Donec eget nulla in nulla lobortis fermentum sit amet eget nisi. Aliquam eget risus at arcu volutpat molestie et ac lacus. Proin maximus eget purus eu volutpat. In malesuada, sem quis malesuada pharetra, massa nisl facilisis tellus, at convallis arcu est vel eros. Cras et sapien consectetur, finibus turpis eget, aliquam elit. Nullam eget arcu purus. Etiam consequat tellus nisi, et dictum leo tincidunt at. Sed ut arcu at nisi dignissim viverra eu nec nulla.
-
-                Pellentesque pulvinar convallis elit, sit amet lobortis justo rhoncus ut. Maecenas ultricies ligula eu tempor aliquet. Nulla augue lorem, sagittis eget odio nec, pulvinar sollicitudin lorem. Cras suscipit, elit quis mollis condimentum, magna odio mollis quam, ac ultrices quam felis vulputate nulla. Vivamus id bibendum risus. Integer at tristique nisi. Sed aliquam nisi nec neque pharetra, egestas pharetra leo pellentesque. Praesent convallis volutpat neque, et euismod sem dignissim id. Mauris ut lacinia felis. Morbi vel auctor ipsum, in tincidunt leo. Sed justo diam, pulvinar sed vestibulum viverra, elementum eget enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-
-                Pellentesque ultrices a libero vitae ornare. Phasellus semper nulla et turpis suscipit dapibus. Aenean sed sagittis purus. Nulla suscipit pellentesque ante at imperdiet. Mauris nec neque viverra lorem tristique volutpat ut vitae enim. Nulla facilisi. Duis ut libero sed nibh iaculis hendrerit varius non lectus. Vestibulum pellentesque vehicula urna, ut fermentum velit vehicula a. Etiam sit amet sem libero. Donec porttitor dolor non magna dictum, ut molestie odio suscipit.
-
-                Nam id scelerisque justo. Duis libero lorem, consequat id sapien a, condimentum laoreet enim. Mauris sit amet rutrum ex. Duis quis turpis eu nibh ultrices dignissim eu consequat lectus. Donec fringilla, nunc sed facilisis euismod, leo sapien laoreet leo, sit amet iaculis risus est at nisl. Aliquam eu dolor nec orci commodo sodales vitae eget mi. Nulla sit amet diam convallis leo cursus porttitor vitae eu sem. Duis vel sollicitudin odio. Aliquam suscipit magna id elit pulvinar, in cursus ligula porttitor. Cras ultricies diam metus, pulvinar mollis dolor vestibulum id.
-
-                Phasellus interdum, mi a viverra mattis, tortor enim facilisis massa, a mattis sapien nibh ac nibh. Maecenas lacinia varius metus, et venenatis erat dapibus at. Sed enim lectus, interdum ac posuere quis, mollis at felis. Vivamus at semper metus. Morbi neque lectus, hendrerit ac odio vel, blandit viverra sapien. Duis consectetur pretium quam, id volutpat tortor lacinia nec. Nullam sollicitudin ac tellus sit amet maximus. Pellentesque non magna vitae felis accumsan sodales. Nunc eu purus dignissim dui eleifend egestas. Donec tempus augue vitae ex accumsan, sit amet fringilla odio egestas. Nulla molestie lacus ut interdum tempus. Nam dictum ex elit, sed pellentesque dui ullamcorper in. Quisque erat mauris, eleifend ac ultricies ut, vehicula id nibh. Morbi nec luctus mauris. Vivamus hendrerit auctor sem eget feugiat.
-
-                Fusce dictum lectus ac quam tincidunt porta. Ut non ullamcorper orci. Nullam pellentesque libero nec nisl accumsan, nec congue sapien faucibus. Aliquam erat volutpat. Cras sit amet nisi risus. Suspendisse mollis odio accumsan feugiat convallis. Nullam feugiat diam ligula, non lobortis enim efficitur in. Nullam egestas efficitur sagittis. Phasellus ornare elementum diam fringilla tempus. Ut ante magna, auctor id neque ut, mollis auctor purus. Nunc vel dolor vel odio tincidunt convallis. Etiam quam nisl, euismod nec feugiat non, molestie et ex. Donec ut mauris ipsum. Proin efficitur nulla sapien, id congue ante porttitor at. Morbi sagittis felis in tellus sollicitudin, quis cursus nibh eleifend. Sed ac ultricies velit.
-
-                Maecenas at ligula rhoncus, laoreet velit quis, eleifend lacus. Fusce sagittis pulvinar nisi non maximus. Pellentesque vitae lorem ut dolor dignissim fringilla. Donec dictum mi augue, quis sollicitudin odio lobortis in. Nam vel diam dui. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin at scelerisque purus. Duis egestas placerat sollicitudin. Mauris rhoncus elit nisl, nec bibendum tortor vulputate tristique. Morbi condimentum id purus ac hendrerit. Ut non eros quis justo aliquet feugiat lobortis eget orci.
-
-                Sed scelerisque nibh arcu, quis dignissim risus tristique id. Donec pellentesque nisi sem, ac tempor lectus vehicula et. Pellentesque eu arcu massa. Aliquam sed nibh vitae dolor dictum dictum sit amet consequat metus. Cras risus justo, varius id scelerisque in, viverra nec sem. Aenean eget tincidunt enim, a blandit mauris. Sed ante dolor, tincidunt eget velit et, efficitur efficitur eros. Donec quis nulla suscipit mauris malesuada ultrices. Pellentesque aliquet, lorem a mattis lobortis, enim mauris sodales nisl, a varius urna libero eu nunc. Nam consequat, orci vel vulputate tincidunt, libero tortor ullamcorper sapien, at dictum arcu nulla eu libero. Curabitur sodales, justo non eleifend semper, arcu sapien pretium nibh, porttitor mollis risus libero eu nisi.
-
-                Sed in placerat odio. Aenean faucibus nisi lacus, quis porta turpis facilisis nec. Suspendisse malesuada, arcu ut tristique vulputate, justo ex sodales mauris, quis placerat ligula tellus at leo. Sed fermentum est erat, at tristique urna porttitor sit amet. Quisque at quam turpis. Curabitur commodo metus at enim convallis auctor. Etiam posuere ante non magna luctus, vitae molestie ligula fringilla.
-
-                Curabitur maximus, risus sed interdum porta, arcu mi commodo nunc, nec mollis mauris leo sed quam. Praesent mollis elit eu eros malesuada, ac dapibus eros tincidunt. Mauris vitae ante at leo dictum condimentum ac ac nibh. Integer sagittis volutpat ipsum consequat sodales. Duis volutpat accumsan neque eget ornare. Aenean condimentum varius dui non rhoncus. Nunc sagittis metus ac dapibus aliquam. Nunc sit amet bibendum mauris, vel aliquam ex. Vestibulum at elit cursus, eleifend sem fringilla, placerat odio. Phasellus at pellentesque mi, nec ultricies neque. Fusce et elit nec libero facilisis gravida.
-
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed vel mauris nibh. Nam suscipit lacus vel lectus mattis lacinia. Aenean et mi id diam semper imperdiet. Quisque malesuada neque et leo gravida, dignissim lacinia dui imperdiet. Sed ac auctor nisi. Praesent nec justo vel tortor viverra placerat. Praesent egestas purus vitae pretium accumsan. Maecenas eget molestie dolor. Quisque efficitur turpis id magna rhoncus tempor. Pellentesque ac molestie ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus ac cursus nunc. Maecenas pharetra magna in orci bibendum euismod.
-
-                Nullam mollis metus sit amet eros porttitor sagittis. Morbi vitae est eleifend, ornare nulla ut, rhoncus massa. Ut at tincidunt nisi. Ut sodales mollis est, vestibulum varius turpis faucibus eget. Vestibulum suscipit ligula vel magna aliquet, a pretium risus convallis. Mauris id lacus euismod, laoreet massa at, viverra quam. Proin ornare vitae tortor at tincidunt. Nulla facilisi.
-
-                Nam pulvinar quis nibh sed commodo. Duis dui justo, porta in arcu at, facilisis maximus leo. Nam posuere rhoncus enim at rutrum. Phasellus sollicitudin, ex quis ornare vehicula, turpis enim posuere neque, ac fermentum metus turpis eu tortor. Donec facilisis gravida dui, vel hendrerit tellus luctus in. Vestibulum quis lorem vitae elit molestie scelerisque id in mi. Donec fermentum commodo ligula, sed commodo justo finibus ac. Sed purus ligula, ultrices eget erat condimentum, volutpat rutrum lacus. Aliquam ante nisl, ultricies at lacus id, consequat lobortis ipsum.
-
-                Duis sit amet rhoncus nisi, consectetur aliquet purus. Mauris laoreet efficitur luctus. Nullam ac interdum tortor. Integer libero urna, tincidunt eu justo id, ornare vestibulum urna. Nam a malesuada mi. Nam vel turpis hendrerit, accumsan erat tempus, aliquet velit. Suspendisse iaculis dictum libero, sit amet maximus felis fermentum dapibus. Quisque fermentum tellus quis sapien elementum, in semper odio pharetra. Sed augue lectus, tincidunt nec sem vel, blandit placerat mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer sed pretium tellus, ac condimentum ex. Nunc quis iaculis quam. Maecenas porttitor risus enim, quis tristique neque ultricies eget. Nam sit amet neque id erat auctor rutrum sit amet quis neque. Fusce facilisis massa enim, et consectetur dui congue eu. Praesent in mi ac nisl consectetur dictum eleifend sed velit.
-
-                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi dignissim nibh et rhoncus feugiat. Fusce porta tempor dolor, ut interdum augue. Etiam ultrices ligula at vulputate sodales. Ut non justo eu lacus convallis interdum. Vivamus tincidunt purus nibh, quis pulvinar velit commodo a. Quisque tincidunt, massa a feugiat dictum, turpis lectus porttitor risus, ac efficitur eros nisi eget erat. Nulla a efficitur augue, ut ultrices velit. Curabitur at ultrices sem, vel eleifend libero. Integer pharetra ornare dui a consequat.
-
-                Curabitur placerat lacinia convallis. Nullam lobortis nisl vel mauris tincidunt porta. Cras maximus ultrices lobortis. Suspendisse consequat, nibh ac placerat semper, massa leo cursus ex, vel aliquet lacus arcu in dui. Ut finibus lacus ac tortor sollicitudin consequat. Ut lectus leo, varius finibus accumsan cursus, malesuada sed purus. Morbi cursus vitae lacus non efficitur.
-
-                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec mollis pretium egestas. Morbi in enim ullamcorper, fermentum felis vel, euismod diam. Curabitur mollis nibh sed mauris viverra, iaculis facilisis nibh faucibus. Aliquam ac malesuada sem. Duis ac congue urna. Cras malesuada consectetur elit a gravida.
-
-                Fusce ullamcorper odio a feugiat suscipit. In molestie ornare velit ac imperdiet. Proin egestas, lacus in luctus fermentum, nunc diam condimentum nulla, vitae scelerisque lorem arcu non mi. Nunc dignissim leo et interdum cursus. Proin eu dolor ut tortor blandit euismod accumsan quis est. Nam tortor orci, vehicula sed augue eu, tincidunt dignissim augue. Integer in iaculis ligula. Nam ornare neque in ultricies vehicula. Sed quis sodales purus, non sodales magna. Vestibulum quis vehicula purus, ut consequat lorem. Maecenas faucibus nec quam non eleifend. Suspendisse quis auctor orci, sed hendrerit lorem. Maecenas id erat nibh.
-
-                Nullam ultrices tortor et sem auctor, et malesuada dui cursus. Proin convallis elit sit amet ligula pulvinar, ac fermentum augue fermentum. Vivamus eget feugiat tellus. Nullam varius arcu et sem rutrum, sit amet vestibulum mi congue. Duis iaculis risus in urna posuere, nec venenatis nisi volutpat. Proin tempus odio nunc, eu viverra purus vehicula condimentum. Integer elementum convallis justo, vel condimentum enim volutpat accumsan. Vestibulum facilisis orci id sapien faucibus, sit amet ultrices purus dictum. Pellentesque consectetur enim vel augue facilisis suscipit. In malesuada tortor nec velit lacinia bibendum. Etiam vel rutrum purus. Suspendisse tristique aliquet finibus.
-            -->
+            TBD
         </div>
         </div>
     </body>
