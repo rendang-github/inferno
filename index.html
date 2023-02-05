@@ -154,10 +154,25 @@ div.img98 {
   float: right;
   shape-outside: ellipse();
   padding: 10px;
-  /*
-  background-color: MediumPurple;
-  background-clip: content-box;
-  */
+}
+
+img.inline97 {
+    position: relative;
+    top: -60px;
+    left: 10px;
+    width: 120%;
+    display: inline-block;
+}
+
+div.img97 {
+    overflow: visible;
+    height: 350px;
+    width: 350px;
+    color: #111;
+    border-radius: 50%;
+    float: right;
+    shape-outside: circle();
+    padding: 10px;
 }
 
 body {
@@ -177,7 +192,6 @@ h1 {
     color: #750800;
     text-align: center;
     line-height: 100%;
-    /*break-before: always;*/
 }
 
 h2 {
@@ -356,7 +370,9 @@ h5 {
         <div class="page">
             <h2>Madness</h2>
 
+            <div class="img97"><img class="inline97" src="img/insanity.png"></div>
             The multiverse contains many places and situations that challenge the characters understanding of the true nature of reality.  Observing and being subjected to unspeakable horrors can cause one to lose ones mind.  Conversely, characters that can hold it together under difficult circumstances can gain a better understanding of reality.  We call this grasp of reality sanity, and this is represented in game as a sanity value.  Similar to hit points, losing your sanity means losing you mind and your life.  Unlike hit points, sanity points are not an all or nothing proposition.  You can be at 1 hit point and be just as effective as someone at full hit points, however losing sanity points has in-game effects, as does gaining sanity.
+
 
             <h3>Sanity Points</h3>
 
@@ -378,35 +394,52 @@ h5 {
                 <tr><td>20</td><td>Enlightened</td><td><em>hidden boon</em></td></tr>
             </table>
 
+            <h3>Sanity Checks</h3>
+            A character's ability to resist madness is based on their deepest, innermost, personal source of inner strength.  For a warrior, this would be their usefulness in combat.  For a wizard, this would be their intellect.  For a bard person, this would be their ability to entertain.  A sanity check comprises of an ability score check on the prime requisite of their character class.  As prime requisite ability scores for character classes are ambiguous in D&amp;D 5th Edition, a player may choose either of the saving throw proficiency ability scores for their 1st level class.  Once chosen, this prime requisite for the purpose of making sanity checks is immutable for the remainder of the campaign.  For example, a player creating a Fighter may choose either <strong>STR</strong> or <strong>CON</strong> as their prime requisite.  A Cleric may choose <strong>WIS</strong> or <strong>CHA</strong>, etc.  However, once chosen it cannot be changed later.
+
+            <p>
+            The DM may require one or more characters to make a sanity check.  The player should roll a 1d20, add their Proficiency Bonus, and the Ability Score  modifier for their prime requisite.  If the total is greater than or equal to the check DC, the character passes.  If the character fails, they will lose one sanity point.
+            </p>
+
+            <h3>Regaining Sanity</h3>
+            
+            Lost sanity points can be recovered via a number of means, including:
+
+            <h4>Inspirational (or Dirty) Deeds</h4>
+            A character performing a exceptional deed strongly oriented toward their alignment.  Such deeds should be of a creative and uncommon variety, and would typically involve some substantial cost or risk to the character.  Successful completion of the deed helps the character reaffirm their self worth and ego, enabling them to regain some amount of control over their mental state.
+
+            <h4>Inspiration Points</h4>
+            A character can gain a sanity point by expending their Inspiration.  This only applys to DM awarded Inspiration and not other character derived forms.
+
             <h3>Affliction types</h3>
 
             Upon dropping to a sufficient sanity level to aquire an affliction, the player should roll 1d20 to determine what the affliction is.  Players are expected to role play the affliction appropriately, starting with mild symptoms, and getting progressively worse as their sanity decreases.
 
             <table class="green tright1 tleft2">
                 <tr><th>d20</th><th>Afflication</th></tr>
-                <tr><td>1</td><td>Dipsomania</td></tr>
-                <tr><td>2</td><td>Kleptomania</td></tr>
-                <tr><td>3</td><td>Schizoid</td></tr>
-                <tr><td>4</td><td>Pathological liar</td></tr>
-                <tr><td>5</td><td>Monomania</td></tr>
-                <tr><td>6</td><td>Dementia Praecox</td></tr>
-                <tr><td>7</td><td>Melancholia</td></tr>
-                <tr><td>8</td><td>Mehalomania</td></tr>
-                <tr><td>9</td><td>Delusional Insanity</td></tr>
-                <tr><td>10</td><td>Schizophrenia</td></tr>
-                <tr><td>11</td><td>Mania</td></tr>
-                <tr><td>12</td><td>Lunacy</td></tr>
-                <tr><td>13</td><td>Paranoia</td></tr>
-                <tr><td>14</td><td>Manic Depressive</td></tr>
-                <tr><td>15</td><td>Hallucinatory Insanity</td></tr>
-                <tr><td>16</td><td>Sado Masochism</td></tr>
-                <tr><td>17</td><td>Homicidal Mania</td></tr>
-                <tr><td>18</td><td>Hebephrenia</td></tr>
-                <tr><td>19</td><td>Suicidal Mania</td></tr>
-                <tr><td>20</td><td>Catatonia</td></tr>
+                <tr><td>1</td><td><strong>Dipsomania</strong> - the compulsion to drink alcohol</td></tr>
+                <tr><td>2</td><td><strong>Kleptomania</strong> - the compulsion to steal</td></tr>
+                <tr><td>3</td><td><strong>Schizoid</strong> - loss of personality</td></tr>
+                <tr><td>4</td><td><strong>Pathological liar</strong> - compulsion to lie</td></tr>
+                <tr><td>5</td><td><strong>Monomania</strong> - singular obsession</td></tr>
+                <tr><td>6</td><td><strong>Dementia Praecox</strong> - extreme disinterest in doing anything at all</td></tr>
+                <tr><td>7</td><td><strong>Melancholia</strong> - extreme feeling of hopelessness</td></tr>
+                <tr><td>8</td><td><strong>Megalomania</strong> - person is convinced that they are the best at everything</td></tr>
+                <tr><td>9</td><td><strong>Delusional Insanity</strong> - individual is convinced that they are some important persona such as a famous person or royalty</td></tr>
+                <tr><td>10</td><td><strong>Schizophrenia</strong> - split personalities</td></tr>
+                <tr><td>11</td><td><strong>Mania</strong> - temporary state where the individual becomes hysterical and irrational and can become incredibly strong and sometimes violent</td></tr>
+                <tr><td>12</td><td><strong>Lunacy</strong> - homicidal compulsion that manifests itself on or about a full moon</td></tr>
+                <tr><td>13</td><td><strong>Paranoia</strong> - person is convinced that everyone is out to get them</td></tr>
+                <tr><td>14</td><td><strong>Manic Depressive</strong> - person swings between two different forms of insanity</td></tr>
+                <tr><td>15</td><td><strong>Hallucinatory Insanity</strong> - afflicted sees or hears things which do not exist</td></tr>
+                <tr><td>16</td><td><strong>Sado Masochism</strong> - the individual may have swings between two different conditions. at one extreme they wish to inflict pain on others. At the other extreme they wish to suffer pain</td></tr>
+                <tr><td>17</td><td><strong>Homicidal Mania</strong> - compulsion to kill</td></tr>
+                <tr><td>18</td><td><strong>Hebephrenia</strong> - disorganized behavior and speech, strange or inappropriate responses</td></tr>
+                <tr><td>19</td><td><strong>Suicidal Mania</strong> - compulsion to kill self</td></tr>
+                <tr><td>20</td><td><strong>Catatonia</strong> - abnormal movements and behaviors, immobility, and withdrawal</td></tr>
             </table>
 
-            <h3>Curing Madness</h3>
+            <h3>Curing Afflictions</h3>
 
             <p>
             The only way to permanently cure an affliction is to raise your sanity points back above the level at which the affliction was obtained.  If the character's points drop below that level again, a new affliction is acquired and the player must re-roll on the affliction table.
@@ -416,11 +449,27 @@ h5 {
             </p>
         </div>
 
+        <div class="page">
+            <h2>Death</h2>
+            Characters are bound service of the infernal plane.  As such, when reduced to zero hit points, the character does not fall unconcious, but is transported back to the Nine Hells.  This is an extremely traumatic and jarring experience to a character's psyche, and as such there are consequences to this.  A character "killed" in this manner must make a sanity check or lose a sanity point upon returning to Hell.
+            <p>
+            After having returned to Hell, the character may choose to wait for the other party members to return, or seek a way to rejoin the party based on the circumstances.
+            </p>
+
+            <h3>Resisting Death</h3>
+            The player may choose to resist returning after being reduced to zero hit points.  For each round the player must make a sanity check.  On a successful check, the character remains as a <strong>Vengeful Spirit</strong> that can still participate in an unresolved conflict.  On a failed sanity check, the character will return to the Hell as above, but will suffer an additional sanity point loss.
+            <p>
+            The stats and powers of the <strong>Vengeful Spirit</strong> will depend on the character's alignment, and will be revealed upon this condition occurring.
+            </p>
+        </div>
 
 
         <div class="page">
-            <h2>New Races</h2>
-            Most campaigns take place on the prime material plane, where there is a fantastic multitude of available player races to play from the now standard elves, dwarves, and hobbits and other staples of classic fantasy fiction, to exotic minotaurs, lizard men, and demonspawn.  Yet this pales in comparison to the mind bending variety of possible player character races on the planes such as Genasi, Gith, Formians, and many more.  In this campaign, players will be able to create characters from any reasonable race, and maybe just some unreasonable ones!  Players can work with the DM to create a novel race around a particular idea to provide a memorable but balanced playable race concept.
+            <h2>Character Race</h2>
+
+            <p>
+            Most campaigns take place on the prime material plane, where there is a fantastic multitude of available player races to play from the now standard elves, dwarves, and hobbits and other staples of classic fantasy fiction, to exotic minotaurs, lizard men, and demonspawn.  Yet this pales in comparison to the mind bending variety of possible player character races on the planes such as Genasi, Gith, Formians, and many more.  In this campaign, players will be able to create characters from any reasonable race, and maybe just some unreasonable ones!  Players can work with the DM to create a novel race around a particular idea to provide a memorable but balanced playable race concept.  The only type of being off-limits are those native to the Nine Hells.  Note that this does not include Tieflings, as they are native to the prime material plane.
+            </p>
 
             <h3>TBD</h3>
             <img class="inline" src="img/bunny_mask.png">
