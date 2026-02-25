@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>PHB - Call of the Inferno</title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
 .background {
     margin: 0px;
@@ -35,7 +36,7 @@
 
 hr.journal {
     column-span: all;
-    border-top: 1px solid rgb(122, 32, 13, 0.1);
+    border-top: 1px solid rgba(122, 32, 13, 0.1);
     margin-top: 2em;
     margin-bottom: 2em;
 }
@@ -48,7 +49,7 @@ p {
 .page {
     column-count: 2;
     column-gap: 40px;
-    break-after: always;
+    break-after: page;
 }
 
 .flavour {
@@ -527,27 +528,6 @@ h5 {
             </p>
         </div>
 
-
-        <div class="page">
-            <h2>Character Race</h2>
-
-            <p>
-            Most campaigns take place on the prime material plane, where there is a fantastic multitude of available player races to play from the now standard elves, dwarves, and hobbits and other staples of classic fantasy fiction, to exotic minotaurs, lizard men, and demonspawn.  Yet this pales in comparison to the mind bending variety of possible player character races on the planes such as Genasi, Gith, Formians, and many more.  In this campaign, players will be able to create characters from any reasonable race, and maybe just some unreasonable ones!  Players can work with the DM to create a novel race around a particular idea to provide a memorable but balanced playable race concept.  The only type of being off-limits are those native to the Nine Hells.  Note that this does not include Tieflings, as they are native to the prime material plane.
-            </p>
-
-            <h3>TBD</h3>
-            <img class="inline" src="img/bunny_mask.png">
-        </div>
-
-        <div class="page">
-            <h2>Monsters</h2>
-            As the campaign progresses, the player characters will encounter exotic never before seen creatures.  Many of these creatures may be benign or even beneficial, most will be hostile, and some will test the very limits of the characters psyche.
-
-            Significant monster categories will be documented here for reference, revealed after being encountered.
-
-            <h3>TBD</h3>
-            <img class="hero" src="img/demon_mask.png">
-        </div>
         <div class="page">
             <h2>Magic Items</h2>
             Magic pervades the very essence of the planes.  Very often magic is captured into a physical form, perhaps by a deranged wizard for later use to gain an advantage over enemies or to achieve a greater goal, perhaps as a failed experiment tested and then later discarded by a lost and forgotten god, perhaps even formed naturally via a rare confluence of the elements and forces of the universe.  In any case, magic items add great power to the player characters, and are prolific throughout the planes.  The biggest question is where to find them, and how to liberate them from their owners without getting killed in the process...
@@ -556,7 +536,35 @@ h5 {
 
             <h4>Fractum Ostium</h4>
             <img class="inline" src="img/ossium_mask.png">
-            TBD
+            <p><em>Artifact (requires attunement)</em></p>
+
+            <p>The Fractum Ostium is an ancient artifact of immense power, long thought destroyed, it is believed to be crafted by the legendary clockmaker <strong>Keller Tegya</strong> for the original Primus. Enkosee describes Tegya as being very, very old, and probably a little mad. Featured prominently in an ancient Blood War battle on the plane of Acheron, the device was broken apart, its pieces and technical diagrams scattered across the planes.</p>
+
+            <p>When assembled and infused with an animus, the Fractum Ostium can bend space itself, connecting distant points and allowing instantaneous travel across vast distances - even between planes. It is said to bypass the normal restrictions that govern planar travel.</p>
+
+            <p class="break"><strong>Known Fragments</strong></p>
+
+            <p>The artifact exists in multiple pieces, each retaining a fraction of the whole's power. Six technical diagrams scattered across the planes detail the assembly of the device.</p>
+
+            <table class="green tleft1 tleft2">
+                <tr><th>Fragment</th><th>Location</th></tr>
+                <tr><td>Clockwork Mechanism</td><td>Embedded in the mechanical heart of Mel Selene in Thuldalin</td></tr>
+                <tr><td>Root Fragment</td><td>Recovered from beneath the ruins of the Great Tree of Mythras</td></tr>
+                <tr><td>Unknown</td><td>Undiscovered</td></tr>
+            </table>
+
+            <h5>Clockwork Fragment</h5>
+            <p><em>Wondrous item, rarity unknown (requires attunement)</em></p>
+            <p>This fragment, a complex arrangement of gears and springs, pulses with latent teleportation magic. Its properties remain unknown until it can be safely extracted from Mel Selene's mechanical heart.</p>
+
+            <h5>Root Fragment</h5>
+            <p><em>Wondrous item, very rare (requires attunement)</em></p>
+            <p>Carved from ancient petrified wood and infused with planar energy, this fragment grants teleportation abilities. The fragment stores energy from diverse magical sources, each distinct type of energy channeled into it adds one charge. For example, an arcane spell of any level grants one charge, while adding a psychic effect such as a mind blast grants another charge.</p>
+            <p>While attuned, you can expend stored charges to cast the following spells:</p>
+            <ul>
+                <li><em>Misty step</em> (1 charge)</li>
+                <li><em>Dimension door</em> (2 charges)</li>
+            </ul>
         </div>
 
         <div class="page">
@@ -1542,11 +1550,9 @@ h5 {
                 And the city will tremble,<br />
                 And he will be a destroyer of worlds.<br />
             </em>
-            </p>
-            </p>
             <p>
 
-            The problem was, this account was not one that was widely
+                The problem was, this account was not one that was widely
             circulated. Platann was terrified of this prediction, and kept it
             to himself for years, allowing other accounts of the prophecy to
             gain prominence. Nor did Audorora take reproductions of it out of
@@ -1854,7 +1860,118 @@ h5 {
 
         <div class="page">
             <h2>Non Player Characters</h2>
-            TBD
+
+            <h3 class="break">Enkosee</h3>
+            <div class="portrait"><img class="portrait" src="img/enkosee.png"></div>
+
+            <p>Enkosee is the devil who greeted the newly damned souls upon their arrival in Hell. He offered them a choice: eternal torment in the flesh-pits, or service to him as his agents across the planes. Those who choose service become bound to him, compelled to carry out his bidding.</p>
+
+            <p><strong>Appearance.</strong> Enkosee appears as a tall, distinguished humanoid devil with an air of cultivated sophistication. He dresses well and speaks with measured eloquence, bearing himself more like a noble scholar than a fiend of the infernal realms.</p>
+
+            <p><strong>Personality.</strong> Despite his position, Enkosee is surprisingly candid and fair in his dealings. He does not lie, rewards competence generously, and punishes only when warranted. Several party members have noted that he has been more truthful with them than their own companions, a fact that chafes at their conscience. He takes genuine interest in those who serve him, often walking alongside them and asking what they truly desire, seeking to reward them in ways that align with their deepest aspirations.</p>
+
+            <p><strong>Philosophy.</strong> Enkosee views Chaos as a "fundamental flaw" in creation, an "original sin" that he has dedicated his time in Hell to correcting. He sees the infernal realms as a necessary institution, a "reordering of things which left to themselves would lead to all kinds of strife." As he explains it, the so-called "good" deities enforce obedience through threat of damnation, yet hold themselves too high to carry out the punishments they decree. Hell cleans up their mess. Still, his authority is limited to this place, and there is much more he wishes to accomplish beyond its borders.</p>
+
+            <p>He has observed "more than one cataclysm" and speaks of the world as a spinning top in its final throes, "the wobbles too large to ignore." He had hoped for more time, but "the final grains of sand in the hourglass approach."</p>
+
+            <p><strong>Powers.</strong> Enkosee possesses formidable abilities. He can telekinetically lift and dismember opponents with a thought, keeping their organs and body parts alive and conscious even as they are separated. The remains of those who defy him are cast into the flesh-pits, a sea of writhing bodies whose pain and anguish somehow power the infernal machinery. He can engage in telepathic communication, and seems to possess knowledge of secrets that "are meant to be beyond the comprehension of mortals."</p>
+
+            <p><strong>History.</strong> Enkosee reveals that he himself is a victim of Hell. He was betrayed by one he trusted long ago, leading to his imprisonment in this plane. He speaks of a "profound injustice" done to him, and intends to eventually set things right. The Fractum Ostium, he believes, may be his salvation, and perhaps the salvation of all who serve him.</p>
+
+            <p><strong>Resources.</strong> Enkosee maintains a vast library and a growing museum of antiquities. He describes himself as "quite the collector of rare arcanum" and has helpers scouring the planes for curiosities. His assistant Panulis attends to his affairs, and he commands a household of lesser devils and bound souls. He has rivals among other powerful devils, and suspects spies in their employ.</p>
+
+            <h3 class="break">Panulis</h3>
+            <p><em>Twisted gnome, scribe and attendant of Enkosee</em></p>
+
+            <p><strong>Appearance.</strong> Panulis appears at first glance to be a gnome, but something has twisted him - his skin has a reddish tint, and there is an unsettling quality to his features that marks him as a creature of Hell. He is small and unassuming, easily overlooked among the more dramatic denizens of the infernal realm.</p>
+
+            <p><strong>Origin.</strong> Panulis was once a gnome, damned to Hell for reasons he does not discuss. Time and the nature of this place have changed him, but he retains the sharp mind and nimble fingers of his former kind. He found his place in the Scribery, one of hundreds of scribes engaged in endless writing, and somehow survived long enough to catch Enkosee's attention.</p>
+
+            <p><strong>Role.</strong> Panulis serves a dual function. He remains based at the Scribery, where he is the keeper of certain important documents, including the Book of Rules that govern conduct in Hell. But he has also become a personal attendant to Enkosee, running errands, fetching wine, and attending to his master's affairs. It is a position of some small influence, though he is careful never to overestimate his own importance.</p>
+
+            <p><strong>Personality.</strong> Panulis has survived in Hell by knowing things others don't and by knowing when to keep his mouth shut. He offered the party a "shortcut" through Hell that "isn't entirely allowed," suggesting a familiarity with secret passages and hidden routes. "You don't stay out of trouble as long as I have without knowing a few tricks," he said. He seemed genuinely disappointed when the party chose the "proper" route instead.</p>
+
+            <p>He understands power. He understands that rules are made to serve those in charge, and that "the strong survive" is the only law that truly matters. Bandito found a kind of kinship with him, both small, both overlooked, both learning to navigate a world where the tall and powerful make the rules and change them when it suits their purposes.</p>
+
+            <p><strong>Deals and Favors.</strong> Panulis claims to have "some influence" with Enkosee and can arrange things for a price. He has offered to help the party in exchange for favors of an unspecified nature in the future. Whether this is genuine helpfulness, careful positioning, or Enkosee manipulating him to manipulate them remains an open question.</p>
+
+            <p>He was entrusted with the Book of Rules and a dusty note from Enkosee long before the party arrived - though he couldn't say exactly how long. "Could be a few months, could be a year or more." Time moves strangely in Hell, and Panulis has stopped trying to measure it.</p>
+
+            <p><strong>Demeanor.</strong> Nervous but competent, eager to please but careful not to overstep. He speaks quickly, deflects questions he doesn't want to answer, and has a talent for being helpful without revealing too much. He knows things. He's not sharing most of them.</p>
+
+            <h3 class="break">Mel Selene</h3>
+            <p><em>Female warforged fighter, former archaeologist</em></p>
+
+            <p>Mel Selene appears at first glance to be a human woman, but closer inspection reveals that the majority of her body is mechanical in nature, a reconstruction of metal, gears, and arcane circuitry built upon what remains of her original flesh. She moves with the deliberate precision of clockwork, yet her eyes hold a depth of emotion that seems at odds with her construction.</p>
+
+            <p><strong>Origin.</strong> Mel was once an archaeologist and explorer who sailed the planes aboard a spelljamming vessel with her companions: <strong>Jalena</strong>, a spellcaster who threw spell after spell at their attackers until she was slain; <strong>Morkak</strong>, a warrior who took three enemies with him before falling; and <strong>Damocleus</strong>, the navigator and her closest friend, whose death left them lost and plummeting toward a crash she barely survived. They had been documenting lost events, ancient heroes, and forgotten places, remembering the unremembered, until Githyanki pirates boarded their vessel, killed her crew, burned their precious journals before her eyes, and left her broken body for dead among the wreckage.</p>
+
+            <p>The Modrons found her. They had been guarding something of importance for millennia, their numbers dwindling, and they saw in Mel an opportunity to bolster their ranks. They saved her from death, rebuilt her with their clockwork technology, and set her to guard their charge. When she tried to leave to bring word to the families of her dead friends, to tell the story of what became of them, the Modrons deemed her "irrational" and severed her control of all but autonomic functions. She spent a millennium conscious but paralyzed, staring at the same canyon wall, unable to move, unable to speak, unable to die.</p>
+
+            <p>The party freed her. Krokiak disconnected the Modron's control of her body, and she turned on her captors with a thousand years of rage. Now she serves the party, sworn to repay the debt of her freedom.</p>
+
+            <p><strong>Demeanor.</strong> Mel speaks of herself as having been "called Mel once," as if the name belongs to someone she used to be. She sometimes argues with herself, no, not with herself, with something inside her head. She breaks off mid-sentence to snap "No!" at nothing visible, or "Shut up, you've had your time!" Her companions have learned that the Modron personality that controlled her for a thousand years is not dead, merely disconnected from motor functions. It still speaks to her, cold and rational, objecting to her choices, offering its own logic. She argues back. To observers, she appears to suffer from some form of madness, but she insists it is all too real.</p>
+
+            <p>Perceptive observers sometimes notice a tear trace down her mechanical face while she is speaking of other matters entirely, as if another presence grieves for something she does not know she has lost.</p>
+
+            <p><strong>Combat.</strong> In battle, Mel is a force of controlled fury. She carries an integrated weapons system built into her mechanical frame, and her first strikes in any engagement are marked by reckless intensity, a thousand years of pent-up rage channeled into violence. She fights like someone who has nothing left to lose, because for a very long time, she didn't.</p>
+
+            <p><strong>Relations.</strong> She has found an unexpected kinship with Krokiak, the Githzerai artificer. She makes careful distinction between his people and the Githyanki pirates who destroyed her life "present company notwithstanding," she says when the subject of vengeance against Githyanki arises.</p>
+
+            <p><strong>The Ship.</strong> When Enkosee chartered a vessel to carry the party across the Astral Plane, fate dealt Mel a cruel hand. The spelljammer was the same ship that had waylaid her vessel a thousand years ago, not the same crew, but the same vessel, now crewed by Githyanki mercenaries, pirates, and chancers of the same breed who had slaughtered her friends. Mel confided in the party that she knew how to pilot vessels of this type, and that given the chance, she would slaughter every Githyanki aboard.</p>
+
+            <p>During a battle with a pink astral space blob, Bandito observed Mel kick one of the Gith pirates off the ship and into the creature's maw when no one was watching. Whether this was justice, vengeance, or simply an opportunity taken remains between Mel and her conscience, if she still has one. She has not spoken of it.</p>
+
+            <p><strong>Secret.</strong> The clockwork mechanism embedded in Mel's mechanical heart is the first fragment of the Fractum Ostium. She has never seen it, never known it was there, but its presence glows brightly to magical detection. The party has kept this secret from Enkosee, claiming she is simply another Modron unit that Krokiak subverted to their cause. How long that deception will hold is anyone's guess.</p>
+
+            <h3 class="break">Captain Teelo Rence</h3>
+            <div class="portrait"><img class="portrait" src="img/teelo.jpg"></div>
+            <p><em>Centaur warrior, servant of the Lady of the Tree (deceased)</em></p>
+
+            <p><strong>Appearance.</strong> A centaur of apparent rank and standing among his kind, called "Captain" by other centaurs. Physically indistinguishable from others of his kind, though Verthandi noted he seemed "possibly modified" in some way by the devils or by whoever ruled the land, he couldn't tell.</p>
+
+            <p><strong>Capture and Escape.</strong> Teelo was captured during a raid on devil supply lines, an ambush by enemy forces that left many of his Fae companions dead. He played the dullard in captivity, feigning ignorance of his surroundings and rank, waiting for an opportunity to escape. That opportunity came when the party's actions drew away his hellhound guards. He seized the moment, overcame his captors, and found himself among the oddest collection of creatures he had ever seen including an Illithid. He continued his charade, assessing whether these strangers might be useful allies.</p>
+
+            <p><strong>Personality.</strong> Pragmatic and cunning, Teelo believed that "every tool has its use and its purpose." He was willing to work with morally questionable allies, including an Illithid, if it served the cause. He carried guilt over the comrades who died in the ambush that captured him, and was determined to make amends to "Her" - the Lady of the Tree.</p>
+
+            <p><strong>The Mythras Campaign.</strong> Teelo brought the party to Mythras and introduced them to the Lady of the Tree, who sought peace with the devil invaders. But Teelo had no intention of negotiating in good faith. He believed the talks with Ceranos were a sham, a way to locate the enemy portal so his forces could destroy it and drive the devils from the land. He was wrong.</p>
+
+            <p>The portal was a feint. While Teelo led his centaurs to attack an empty cave, Ceranos's kobold army descended upon Mythras and burned it to the ground. The Great Tree was destroyed, its roots torn from the earth, and from those smoking ruins, servants of Hell pulled a clockwork fragment: the second piece of the Fractum Ostium.</p>
+
+            <p><strong>Death.</strong> In the chaotic battle that followed, a three-way conflict between Teelo's forces, Ceranos's infernal army, and the party, Teelo was mortally wounded. As he lay dying, his insides no longer inside, Feuriel descended upon him in a cloud of darkness and drained the last of his life essence. His final expression was one of horror.</p>
+
+            <p>But Feuriel witnessed something else. As Teelo's body went still, it transformed - shedding the form of a centaur and revealing something else. Whatever Teelo had truly been, he was never simply a centaur. The party never learned what this meant, or whose servant he really was.</p>
+
+            <h3 class="break">Ceranos</h3>
+            <div class="portrait"><img class="portrait" src="img/ceranos.jpg"></div>
+            <p><em>Female devil, servant of Enkosee (status unknown)</em></p>
+
+            <p><strong>Appearance.</strong> Ceranos appeared to be a standard devil, not particularly high-ranking, certainly not on the same level as Enkosee. She wore a distinctive necklace of gold clusters and ruby accents that radiated an aura of confidence and power.</p>
+
+            <p><strong>Role.</strong> Ceranos was Enkosee's operative on the plane of Mythras, though she claimed to serve a "benefactor" who liked to keep things "compartmentalized." She made a point of telling the party that she "willingly chose" to serve - unlike them, who were bound. Whether this was truth, manipulation, or self-deception remained unclear.</p>
+
+            <p><strong>The Mythras Operation.</strong> Ceranos tricked the water sprite Jarvik into signing a contract to "develop and exploit" the lands of Mythras. In truth, she was strip-mining the region, searching for something buried beneath the earth. The party eventually realized she was hunting a fragment of the Fractum Ostium.</p>
+
+            <p>She proved to be a capable tactician. While Teelo believed he was using the peace negotiations to locate her portal, Ceranos was playing a deeper game. The "portal" was a feint, an empty cave. While Teelo's forces attacked nothing, her kobold army descended upon Mythras and burned it to the ground. From the smoking roots of the Great Tree, her servants extracted the second piece of the Ostium.</p>
+
+            <p><strong>Personality.</strong> Ceranos was careful with her words, she said so herself. She projected confidence and control, wearing her magical necklace like armor against fear and doubt. She seemed genuinely convinced of her own importance, assured that continued service would secure her "place in history."</p>
+
+            <p><strong>Death and Disappearance.</strong> In the three-way battle that followed the destruction of Mythras, she was killed in the fighting. But death is not always the end for those who serve Enkosee.  Her current whereabouts, and what remains of her, are unknown.</p>
+
+            <p><strong>Aftermath.</strong> Bandito claimed her Necklace of Supreme Confidence from her corpse, though he has not spoken of how he came to possess it. The second Ostium fragment she recovered was taken by the party.</p>
+
+            <h3 class="break">Kellar Tegya</h3>
+            <p><em>Clockmaker, possible creator of the Fractum Ostium</em></p>
+
+            <p>Kellar Tegya is the legendary artisan who crafted the Fractum Ostium for the original Primus of the Modrons. Their signature appears on the technical diagrams scattered across the planes - instructions for assembling the ancient artifact.</p>
+
+            <p>Little is known of Tegya with certainty. Enkosee, who has lived long enough to remember them, describes the clockmaker as "very, very old, and probably a little mad." He refers to Tegya as "that old goat" and recalls that they were building "some sort of contraption for the Primus."</p>
+
+            <p>What is known is that Tegya was "not from this world", they came from somewhere beyond the planes and possessed power sufficient to craft artifacts that could bend space itself. They are described as "a tad unpredictable" and "very, very powerful."</p>
+
+            <p>Tegya maintained a workshop "squirrelled away in some forsaken place, hidden deep in the Shadowfell." They did not like to be interrupted. The workshop's exact location remains unknown, though research suggests the party may be able to find an address among the technical diagrams.</p>
+
+            <p>No one has seen Kellar Tegya in eons. Whether they still live, where they might be found, and what manner of being they truly are remain mysteries yet to be unraveled.</p>
         </div>
 
         <div class="page">
@@ -2708,9 +2825,94 @@ h5 {
             </p>
 
             <h3 class="break">Week 3</h3>
-            <strong><em>as observed by The Broken Man (Ben Pancoast)</em></strong>
+            <strong><em>from the perspective of The Broken Man (DM notes edition)</em></strong>
             <p>
-            TBD
+            The Broken Man felt the portal collapse behind them with a familiar "fwoop" - the smell of sulphur and burnt hair lingering in the air. They had returned to Uman Yango. The pit fiend and wizards were gone. Enkosee stood waiting, with Panulis at his side.
+            </p>
+            <p>
+            "Ah, you made it back," Enkosee said. "How did it go?"
+            </p>
+            <p>
+            The party reported their success - the bookseller had signed the contract of his own free will. Enkosee seemed pleased. "Excellent, excellent. You didn't have any trouble on the way? Well, you certainly have exceeded my expectations, low as they were. Perhaps you will prove to be of use to me in more... consequential tasks."
+            </p>
+            <p>
+            He asked if they had found anything else of interest. The Broken Man thought of the scroll they had copied in Jarnsen's shop - the one with the strange coordinates and diagrams. The party had kept the copy, returning only the original. For now, that knowledge remained theirs alone.
+            </p>
+            <p>
+            "Succeed, and you will find me most generous," Enkosee said, and rewarded them with gold. He granted them downtime to rest and recover. "You may visit the bazaar, rest, or return to the Scribery. I am quite the collector of rare arcanum. Earn my good faith and someday I might allow you to view my collection."
+            </p>
+            <hr class="journal">
+            <p>
+            The Broken Man chose to spend his time in the archives with Panulis. The twisted gnome knew things - useful things - about how Hell operated. More importantly, he knew how to navigate its systems without attracting unwanted attention.
+            </p>
+            <p>
+            The Book of Rules revealed new secrets to those who studied it carefully. The Broken Man discovered that by deliberately providing the book with a blood sacrifice, one could gain advantage when searching for specific regulations. The book could also be persuaded to change its language, translating its contents into any tongue the reader knew. A useful property.
+            </p>
+            <p>
+            Panulis offered more than just access to documents. He claimed to have "some influence" with Enkosee - the ability to arrange things for a price. A favor, unspecified, to be called upon in the future. The Broken Man noted this offer but did not accept it. Not yet. Such bargains had a way of costing more than expected.
+            </p>
+            <p>
+            "You don't stay out of trouble as long as I have without knowing a few tricks," Panulis had said. The Broken Man suspected those tricks included knowing when not to make deals.
+            </p>
+            <hr class="journal">
+            <p>
+            The others had scattered to pursue their own interests. Bandito visited the bazaar - a chaotic market where slaves, beasts, weapons, armor, potions, and less savory commodities changed hands. The Harengon moved through the crowds with practiced ease, acquiring items through purchase and other means.
+            </p>
+            <p>
+            Verthandi, the illithid, seemed most interested in the food stalls - though "food" was perhaps a generous term for what passed as sustenance in Hell. The Broken Man did not inquire further.
+            </p>
+            <p>
+            Feuriel kept to herself, her expression unreadable. Whatever thoughts occupied the fallen angel, she did not share them.
+            </p>
+            <p>
+            They rested. In Hell, rest was never truly restful - but it was necessary. The Broken Man used the time to study, to process, to understand the rules that governed their new existence.
+            </p>
+            <hr class="journal">
+            <p>
+            After they had rested, Enkosee summoned them again. He had a new task - an opportunity to prove themselves in "a greater context."
+            </p>
+            <p>
+            "As before, you will find yourselves transported to a place where there will be a group in need of a service," Enkosee explained. "Unlike the first idiot, these ones will be more insistent. You can choose to help them or not - it's inconsequential to me. What I want is for you to retrieve something for me."
+            </p>
+            <p>
+            He spoke of a treasure cache from some long-dead lich. Most of it had been plundered, but written records remained - and those were what Enkosee desired. "Retrieve any written records you find and bring them back to me. The rest you can keep. Kill them. Bribe them. Treat with them. I care not about how you get results, just that you get them."
+            </p>
+            <p>
+            "The place is called Pelion. I've never been there myself but I hear it's a dreadful place. Best to get in and out as quickly as possible."
+            </p>
+            <hr class="journal">
+            <p>
+            The portal deposited them in a barren landscape. Two figures waited - a wizard in black robes and a gruff fighter in chain armor. The wizard stepped forward with theatrical grandeur.
+            </p>
+            <p>
+            "Hail to you, spawn of hell! We seek your aid!"
+            </p>
+            <p>
+            The fighter rolled his eyes. "Gerath, what the hell is this? They don't look like any devil spawn I've ever heard of."
+            </p>
+            <p>
+            "Shut up, Karl," the wizard snapped. "The spell worked, didn't it? I read the damn scroll, a portal opened up, and something came through from the other side."
+            </p>
+            <p>
+            Karl surveyed the party with growing disbelief. "One of them's a bloody rabbit! And an elephant! And some sort of squid man. He's green! Did you open a portal to hell, or to a circus menagerie?"
+            </p>
+            <p>
+            "Shut up!"
+            </p>
+            <p>
+            "I am Gerath Spellforger," the wizard announced, ignoring his companion, "and this is Karl the Luskan Bastard." The mercenary shrugged and nodded.
+            </p>
+            <p>
+            Gerath launched into a pompous speech about fulfilling their duty, but Karl cut him off. "Cut the theatrics, Gerath. Look, all you have to do is go in there, kill everything there, and come back here and let us know. Job done, we all get on with our day. Okay?" He gestured toward a cave with a staircase leading down into darkness.
+            </p>
+            <p>
+            The Broken Man studied the two men carefully. They sought a small jeweled flask, they said. They had obtained the summoning scroll from a traveling bard. They had entered this place before and been driven back by undead. A third companion - Tannis - had fallen to an arrow and then had his head gouged out by a skeleton.
+            </p>
+            <p>
+            There was more to their story. The Broken Man could sense it. But for now, the task was clear: descend into the dungeon, retrieve any written records, and survive.
+            </p>
+            <p>
+            The party descended the stairs into darkness.
             </p>
 
             <h3 class="break">Week 4 - In The Dungeons of Garg</h3>
@@ -3005,7 +3207,7 @@ h5 {
             recite what would become his last rites.
             </p>
             <p>
-            <en>“I have been sent here by Torm, God of Justice, to bring
+            <em>“I have been sent here by Torm, God of Justice, to bring
             justice to places where justice is not often found, to bring
             justice to you. Go now. Leave this place, and you will be spared.
             Take yourself and your things, and leave, and never return.”</em>
@@ -3050,7 +3252,7 @@ h5 {
             </p>
             <p>The Fallen Angel spoke her verdict: <em>“Judgment has been passed
             and justice will be served. You shall
-            perish.”</em>
+            perish.”</em></p>
             <p>The field erupted in battle. The Broken Man loosed a series of
             blasts from his arcane limbs, decimating the brains of one of the
             men, much to the illithid’s dismay. Aldoon launched magic stones
@@ -3075,7 +3277,7 @@ h5 {
             have? Was this her purpose? Was she Torm’s fury...?
             </p>
             <p>
-            In the moments after the fight was over, Fueriel approached Alhoon, seeing him take a pause for prayer.
+            In the moments after the fight was over, Fueriel approached Alhoon, seeing him take a pause for prayer.</p>
             <p>
             <em>“Can you connect to your deity in this place?”</em> she asked.
             It seemed easy for him, yet eluded her.
@@ -3160,9 +3362,53 @@ h5 {
             Perhaps that is why she was put here?...
             </p>
             <h3 class="break">Week 6</h3>
-            <strong><em>as observed by Crokiak (Dave Feldman)</em></strong>
+            <strong><em>from the perspective of Crokiak (DM notes edition)</em></strong>
             <p>
-            TBD
+            The River Styx led them through falls and chasms, emerging at last into Acheron. Orgoth the Beautiful - a name that Crokiak found increasingly ironic with each passing hour - guided them to the coordinates Enkosee had provided. What they found was a crater, massive and ancient, gouged into the landscape like a wound that had never healed.
+            </p>
+            <p>
+            At the bottom, a silvery pool glowed faintly. Enkosee had not mentioned this. The party stood at the crater's edge, debating.
+            </p>
+            <p>
+            Crokiak picked up a decrepit helmet - a relic of the ancient battle that had created this crater - and tossed it in. The helmet floated on the surface, buoyant in the strange liquid. It did not sink. It did not dissolve. It simply... waited.
+            </p>
+            <p>
+            Someone had to go first. Crokiak volunteered.
+            </p>
+            <p>
+            He dove in - and found that the pool had no bottom, only another top. He emerged into a moonscape, a junkyard stretching to every horizon. Stone artifacts, crumbling structures, what appeared to be ships embedded awkwardly into the ground. Canyons and chasms carved through the debris. A single small star hung low on the horizon, casting dim light that might have been late dusk or early dawn.
+            </p>
+            <hr class="journal">
+            <p>
+            The others followed. Together, they pressed into a canyon that wound through the debris, the walls rising high on either side. Crokiak felt the weight of the stone pressing in - a claustrophobic intimacy that reminded him of the tunnels back home in Limbo.
+            </p>
+            <p>
+            Then he noticed the remains.
+            </p>
+            <p>
+            At first, they appeared to be statues - spherical and box-shaped forms frozen in stone. Modrons, Crokiak realized. The nature of this place had petrified them over millennia. But as they progressed deeper into the canyon, the remains shifted. Half-petrified. Half-metal. Still stone in places, but mechanical in others.
+            </p>
+            <p>
+            And then, up ahead, he saw her.
+            </p>
+            <hr class="journal">
+            <p>
+            A figure stood motionless in the canyon. She appeared to be a human female, but as Crokiak drew closer, he saw that the majority of her body was mechanical in nature - a reconstruction of metal, gears, and arcane circuitry built upon what remained of organic flesh.
+            </p>
+            <p>
+            When she looked up at him, her eyes held a strange depth. She spoke in a voice that was human, but overlaid with something mechanical - and she referred to herself only in the collective.
+            </p>
+            <p>
+            "We are here to protect this place until the Primus returns."
+            </p>
+            <p>
+            Crokiak began to ask questions, but something was wrong. The ancient machinery around them was stirring. The half-petrified Modrons in the canyon walls were shaking free of their stone shells, joints sparking and stuttering. The conversation had triggered something - a defense protocol, perhaps, or simply the realization that intruders had come.
+            </p>
+            <p>
+            The figure's expression changed. Her eyes went cold, mechanical, rational.
+            </p>
+            <p>
+            And then she attacked.
             </p>
 
             <h3 class="break">Week 7</h3>
@@ -3506,7 +3752,174 @@ h5 {
             </p>
 
             <h3 class="break">Week 9 - Skirmish in the Scribery</h3>
-            <strong><em>as observed by ?? </em></strong>
+            <strong><em>as observed by Mel Selene</em></strong>
+            <p>
+            Mel Selene stood on the deck of the sinking demon ship, surrounded by carnage. She had fought alongside these creatures - these strangers - for the first time since her liberation. They moved with practiced efficiency, looting the dead and claiming their spoils. She was learning quickly that this was how things worked in Hell.
+            </p>
+            <p>
+            <em>No, stop analyzing. You're not a machine. Stop.</em>
+            </p>
+            <p>
+            The Modron voice in her head was cold, clinical, always observing. She had learned to argue with it over the centuries. Sometimes she won. Sometimes she just shouted at it to shut up.
+            </p>
+            <p>
+            "Shut up," she muttered under her breath.
+            </p>
+            <p>
+            The Loxodon, Aldoon, glanced at her with concern. She ignored him.
+            </p>
+            <hr class="journal">
+            <p>
+            Crates marked "Food" in Infernal had been broken open to reveal not provisions, but slaves - nineteen dwarves huddled together in the dark, blinking against the light. The party's reaction to this discovery varied dramatically, and Mel found herself studying them, cataloging their responses the way she used to catalog ancient artifacts.
+            </p>
+            <p>
+            Aldoon and the mechanical one called Elusurm - or was it Zoltano? She still struggled with names - discussed what should become of them with genuine concern. They spoke of freedom, of finding them passage home, of doing what was right. Good people, she thought. Or at least, people trying to be good.
+            </p>
+            <p>
+            Bandito the Harengon seemed more interested in what he could steal from the cargo. Not evil, exactly. Just... practical. Survival-oriented. She understood that.
+            </p>
+            <p>
+            Krokiak - the Githzerai who had freed her - was quiet, technical, focused on mechanisms and systems. He had seen the Modron control interface in her body and disabled it with surgical precision. She owed him more than she could ever repay. But she did not know him, not really.
+            </p>
+            <p>
+            Feuriel was a cipher - a fallen angel wrestling with her own nature, prone to violent outbursts and sudden despair. Mel had watched her collapse on the deck after the battle, wings shedding black feathers, weeping for reasons Mel did not fully understand. There was pain there. Mel recognized pain.
+            </p>
+            <p>
+            And then there was Verthandi.
+            </p>
+            <hr class="journal">
+            <p>
+            The Illithid claimed his share of the loot with the others, but when it came time to divide the slaves, he made his intentions horrifyingly clear.
+            </p>
+            <p>
+            Mel had seen death. She had watched Githyanki pirates slaughter her friends - Jalena falling under a hail of blows, Morkak taking three enemies with him before he died, Damocleus crumpling with an arrow through his throat. She had lain broken in the wreckage of her spelljammer, watching them burn her journals, laughing as they left her for dead.
+            </p>
+            <p>
+            But she had never seen anything like this.
+            </p>
+            <p>
+            Verthandi drew one of the dwarves aside. The screaming did not last long, but the wet, wet sounds did. Mel forced herself to watch. She needed to understand what kind of creature she had allied herself with. When it was over, the dwarf's body lay crumpled on the deck, and Verthandi wiped something dark from his tentacles with an expression of mild satisfaction.
+            </p>
+            <p>
+            <em>Nutritional efficiency optimal. Recommend acquiring additional specimens for long-term sustenance planning.</em>
+            </p>
+            <p>
+            "SHUT UP!" Mel shouted, and several heads turned toward her.
+            </p>
+            <p>
+            She was trembling. She owed these people her freedom. But the Illithid ate brains. The Illithid was part of this group. And she was sworn to serve them.
+            </p>
+            <p>
+            What had she gotten herself into?
+            </p>
+            <hr class="journal">
+            <p>
+            Panulis met them at the docks when they returned to Uman Yango. The twisted gnome's eyes went wide when he saw Mel - a new addition to their number, clearly not a devil, clearly not damned. He asked questions. The others gave answers. Mel stayed silent, watching, learning.
+            </p>
+            <p>
+            Then they were brought before Enkosee.
+            </p>
+            <p>
+            Mel had never met a devil of such rank. He appeared almost human - tall, distinguished, with an air of cultivated sophistication that seemed at odds with everything she had heard about Hell. But when he examined her, she felt the weight of his attention like a physical force. Something in her chest seemed to pulse - a strange warmth she did not understand, deep within her mechanical components.
+            </p>
+            <p>
+            <em>Threat assessment: extreme. Probability of dissection: 73.6%. Recommend full tactical disclosure and cooperative integration with superior force.</em>
+            </p>
+            <p>
+            Mel gritted her teeth. She would not give him the satisfaction.
+            </p>
+            <p>
+            "Tell me, pet," Enkosee said, "how did my dear colleagues come to have you in their service?"
+            </p>
+            <p>
+            Mel met his gaze. "I spent a thousand years gazing into the abyss, immobile, wanting to die. They freed me. I owe them my life, and my sanity."
+            </p>
+            <p>
+            Enkosee studied her for a long moment. "I do believe this one is telling the truth."
+            </p>
+            <p>
+            The party explained that she was another Modron unit, subverted by Krokiak's technical expertise. A useful asset, nothing more. Enkosee seemed satisfied. "She will make an excellent addition to my collection," he said, and Mel did not know whether to feel relieved or terrified. "Well done. You may keep your pet. The pet of a pet - how amusing."
+            </p>
+            <hr class="journal">
+            <p>
+            Enkosee rewarded them with gold and offered them time to visit the bazaar while he studied the plinth they had recovered. The others scattered to spend their coin. Mel followed, still learning the dynamics of this strange group.
+            </p>
+            <p>
+            She was their pet now. Their asset. Their tool.
+            </p>
+            <p>
+            <em>Tactical assessment: integration proceeding within acceptable parameters. Recommend continued observation and data collection.</em>
+            </p>
+            <p>
+            "I know," she said quietly. "I know."
+            </p>
+            <hr class="journal">
+            <p>
+            It was during this downtime that someone suggested returning to the Scribery - the great archive where Panulis worked, where they had first obtained the Book of Rules. Mel had never been there, but she could tell by the way the others spoke that they expected it to be as they had left it.
+            </p>
+            <p>
+            It was not.
+            </p>
+            <p>
+            The smell hit them before they reached the doors. Blood and offal and something sulfurous. Inside, the great hall was a slaughterhouse. Bodies of the twisted gnome scribes lay scattered among their tables, torn apart and partially consumed. The shelves had been toppled. Parchment was everywhere, soaked through with ichor.
+            </p>
+            <p>
+            Hell hounds.
+            </p>
+            <hr class="journal">
+            <p>
+            The creatures emerged from the shadows - three of them, massive and snarling, their pelts smoking with infernal heat. Jaws dripping with the remains of the scribes they had been devouring.
+            </p>
+            <p>
+            The battle was brutal but brief. The party had fought demons on a sinking ship; hell hounds, for all their ferocity, were lesser prey. Feuriel's blade flashed. Aldoon called down divine wrath. Verthandi filled the air with eldritch power. Even Mel herself joined the fray, her integrated weapons systems humming to life, a thousand years of rage channeled into every strike.
+            </p>
+            <p>
+            When the last hell hound fell, Krokiak stood among the carnage, his expression troubled. He was looking at the remains of a gnome who had been torn apart - half-eaten, beyond any hope of repair.
+            </p>
+            <p>
+            "I can't fix that," he said quietly.
+            </p>
+            <p>
+            Mel watched him. He was not like the others. He felt the weight of failure. He wished he could undo what had been done. She understood that feeling.
+            </p>
+            <hr class="journal">
+            <p>
+            Then came the realization.
+            </p>
+            <p>
+            The imps. The ones the party had killed when they first came to the Scribery, weeks ago. The imps in the rafters, scratching at the scribes, keeping them working. They had seemed like pests at the time, and the party had slaughtered them without a second thought.
+            </p>
+            <p>
+            But the imps had been doing more than driving the scribes. They had been keeping the hell hounds at bay.
+            </p>
+            <p>
+            Without the imps, the hounds had escaped. They had come here, to the Scribery, and they had feasted.
+            </p>
+            <p>
+            The party traced the trail of destruction back through the corridors, following the hell hounds' path to its source. To a row of prison cells where the guards were cursing and confused, where the hounds had simply... left their posts.
+            </p>
+            <hr class="journal">
+            <p>
+            They found him in the corridor outside the cells.
+            </p>
+            <p>
+            A centaur. Battered, bruised, but standing. A glaive in each hand. Devil guards lay dead at his hooves.
+            </p>
+            <p>
+            He looked at the party - this bizarre collection of creatures that had stumbled into his escape - and Mel saw him weigh his options. Fight, flee, or parley.
+            </p>
+            <p>
+            "Will you fight me?" he asked. "Follow me? Or leave me be?"
+            </p>
+            <p>
+            He was not of this place. He was a prisoner, like they had been. Like she had been.
+            </p>
+            <p>
+            Mel watched as the party negotiated with the centaur, who called himself Captain Teelo Rence. Another stray. Another lost soul in this hellscape.
+            </p>
+            <p>
+            She understood that feeling better than most.
+            </p>
 
             <h3 class="break">Week 10 - Teelo's Run</h3>
             <strong><em>From the journal of Captain Teelo Rence (NPC)</em></strong>
@@ -3777,6 +4190,711 @@ h5 {
             <p>Aldoon felt calm. He had done what was required. In Ashuud’s letter to the Beldena, he says <em>“Lightning may bring fire, rain may bring landslides and floods, the ground may shake, the mountains may burst forth. This is but Iolensis washing away what is impure, that we may see clearly our purpose.”</em></p>
             <p>Aldoon was her instrument. He must do what must be done, here in these strange worlds. And he would go forth with a new understanding. That sometimes, to reach a righteous end, one must rain down fire.</p>
 
+            <h3 class="break">Week 14 - The Ruin Of Mythras</h3>
+            <strong><em>as observed by Mel Selene</em></strong>
+
+            <p>
+            The party had discussed the plan extensively. Teelo believed the negotiations with Ceranos had been a sham - a way to locate the enemy portal so his forces could destroy it. The party had agreed to scout ahead to support the assault.
+            </p>
+            <p>
+            But something felt wrong.
+            </p>
+            <p>
+            The cave entrance was guarded by a handful of kobolds, but the party did not enter. They observed from a distance, watching the tunnel mouths, counting the guards, assessing the defenses.
+            </p>
+            <p>
+            There were hardly any defenses at all.
+            </p>
+            <p>
+            They reported back to Teelo. The centaur captain listened, his expression growing darker with each word. Then he made his decision.
+            </p>
+            <p>
+            "We attack now," he said. "Whatever they're hiding in there, we'll find it."
+            </p>
+            <hr class="journal">
+            <p>
+            And then Teelo looked north.
+            </p>
+            <p>
+            A column of smoke rose from the direction of Mythras - thick, black, and unmistakable.
+            </p>
+            <p>
+            "No," Teelo said. His voice was barely a whisper. "How?"
+            </p>
+            <p>
+            Mel saw the realization dawn on his face. The empty cave. The minimal guards.
+            </p>
+            <p>
+            There was no portal. There never had been.
+            </p>
+            <p>
+            While he attacked an empty cave, Ceranos had been burning his home.
+            </p>
+            <p>
+            Teelo didn't speak. He didn't rage at the party, didn't accuse them of betrayal. He simply turned and ran, his surviving centaurs following, racing toward the smoke.
+            </p>
+            <hr class="journal">
+            <p>
+            The journey back to Mythras was a blur of motion and dread. As they approached, the smell hit them - burning wood, charred flesh, something sulfurous and wrong. The protective hedges that had surrounded the city were gone, hewn apart and burned. The trees were blackened skeletons.
+            </p>
+            <p>
+            Dead kobolds littered the streets. But something was odd - many appeared to have been killed by other kobolds, and some bore self-inflicted wounds. The density of bodies increased as they approached the town center, and a makeshift bridge of debris and corpses spanned the despoiled lake.
+            </p>
+            <p>
+            And the Great Tree...
+            </p>
+            <p>
+            It was gone. Not just burned - blasted apart, the stump torn from the earth, leaving a smoking crater. Kobolds dug in the churned soil, sifting through ash and earth.
+            </p>
+            <hr class="journal">
+            <p>
+            Mel found Aldoon kneeling before a statue. The statue of Iolensis was somehow untouched - not even scorched, its stone pristine amid the devastation. The Loxodon's eyes were closed, his trunk curled around his holy symbol. Whatever he was feeling, he kept it private.
+            </p>
+            <p>
+            Nearby, Feuriel stood before another statue - Torm, though it was barely recognizable. The elegantly carved oak had been warped and split by the heat, blackened charcoal exposed beneath, one eye still glowing with burning embers. Feuriel's face twisted with anguish as she looked upon it.
+            </p>
+            <p>
+            Then something changed.
+            </p>
+            <p>
+            Mel watched as Feuriel's expression shifted - from despair to something else. Understanding, perhaps. Or acceptance. The fallen angel stood motionless before the ruined statue for a long moment, then turned away without a word. Whatever epiphany she had experienced, she did not share it.
+            </p>
+            <hr class="journal">
+            <p>
+            Baloth was picking through the remains of a burned-out building - a magic seller's shop, from what Mel could see. The explosion had been violent, blown apart when the flames touched something volatile. But the Drow necromancer moved with purpose, his eyes scanning the wreckage.
+            </p>
+            <p>
+            He found what he was looking for - a scroll case, blown into the branches of a charred tree. He retrieved it carefully, examined its contents, and tucked it away without comment.
+            </p>
+            <hr class="journal">
+            <p>
+            Bandito moved through the devastation with a practiced eye, and Mel saw him pause, frown, look around. She understood his confusion. There were no bodies of townsfolk. No captives being led away. Just dead kobolds and burned buildings.
+            </p>
+            <p>
+            "Where are they?" she heard him mutter. "Where did everyone go?"
+            </p>
+            <p>
+            It was a good question. And there was no one left to answer it.
+            </p>
+            <hr class="journal">
+            <p>
+            They found Ceranos at the crater's edge, shouting orders at the digging kobolds.
+            </p>
+            <p>
+            She turned as they approached. Her expression shifted from annoyance to recognition to something that might have been satisfaction.
+            </p>
+            <p>
+            "Ah, it's you."
+            </p>
+            <p>
+            She said something about her benefactor, about compartmentalization, about how the party's trail had led them to the object after all. Mel barely heard the words. She was watching the kobolds dig, watching them pull fragments of root and earth from the crater.
+            </p>
+            <p>
+            They had found something. Something important.
+            </p>
+            <p>
+            And then -
+            </p>
+            <p>
+            That was when all hell broke loose.
+            </p>
+
+            <h3 class="break">Week 15 - Battle for Mythras</h3>
+            <strong><em>as observed by Mel Selene</em></strong>
+
+            <p>
+            The kobolds ignored them.
+            </p>
+            <p>
+            Mel found that strange. The party stood at the edge of the crater, surrounded by Ceranos's forces, and yet the kobolds continued their digging as if the newcomers were beneath their notice. They pulled fragments of root and charred wood from the smoking earth, piling them carelessly, their claws working with mechanical efficiency.
+            </p>
+            <p>
+            The party joined the search. Mel moved among the kobolds, her hands sifting through debris alongside the others. She watched Bandito carefully - the Harengon moved with a casual efficiency that his eyes scanning the churned earth with practiced intensity.
+            </p>
+            <p>
+            At one point, he paused. His fingers closed around something small - something that glinted with metal and clockwork. He straightened, his expression unchanged, but Mel noticed how his coat seemed suddenly heavier on that spot.
+ his hand slipped into his pocket with fluid grace.
+            </p>
+            <p>
+            <em>Observation: subject has acquired additional mass. Contents unknown.</em>
+            </p>
+            <hr class="journal">
+            <p>
+            Then all hell broke loose.
+            </p>
+            <p>
+            They came from the north - Teelo and his centaur warriors, a company of elves with bows drawn, and something else. Something terrible. A ragewalker, a malevolent forest spirit, its form a twisted mass of roots and thorns and hatred. It moved through the burning ruins like a living nightmare, and where it passed, things died.
+            </p>
+            <p>
+            They killed everything in their path. Kobolds. Devils. Anything that stood between them and the crater.
+            </p>
+            <p>
+            <em>Threat assessment: extreme. Enemy force composition: centaurs x12, elves x8, ragewalker x1. Survival probability without engagement: 34%. With engagement: uncertain.</em>
+            </p>
+            <p>
+            "I know," Mel muttered. "I know."
+            </p>
+            <hr class="journal">
+            <p>
+            The party turned on Ceranos.
+            </p>
+            <p>
+            Mel didn't know who struck first, but suddenly the three-way battle was joined. The kobolds scattered, some fighting back, others fleeing into the smoke. Ceranos shouted orders that no one heard. The centaurs charged through the chaos, hooves pounding, glaives flashing.
+            </p>
+            <p>
+            And they attacked the party too.
+            </p>
+            <p>
+            Teelo had not forgotten who he blamed for this disaster. His warriors cut down kobolds and party members alike, their faces twisted with grief and rage. Mel raised her weapons, fighting defensively, trying to keep the centaurs at bay while watching for the ragewalker.
+            </p>
+            <hr class="journal">
+            <p>
+            She saw Baloth fall.
+            </p>
+            <p>
+            The Drow necromancer had been holding his own, his staff of withering draining the life from kobolds, when the centaur warriors descended upon him. There were too many of them. He went down under a hail of hooves and glaive strikes, and he did not get back up.
+            </p>
+            <hr class="journal">
+            <p>
+            Ceranos fell somewhere in the chaos. Mel didn't see who struck the killing blow - the battle was too confused, the smoke too thick - but she saw the devil's body crumple, saw the life fade from her eyes. And she saw Bandito move through the aftermath with that same fluid grace he had noted earlier.
+            </p>
+            <p>
+            He passed near the devil's corpse, his movements somehow... heavier. As if something had been added to his pockets. His hand slipped into his coat and retrieved something from around Ceranos's neck - a necklace of gold clusters and ruby accents. He tucked it away without a word.
+            </p>
+            <hr class="journal">
+            <p>
+            Then everything happened at once.
+            </p>
+            <p>
+            Mel heard Feuriel scream. She turned to see the ragewalker descending upon the fallen angel, its thorn-covered limbs tearing into her flesh. Feuriel fought back with sword and wing and fury, but the creature was ancient and terrible, and its wounds did not slow it.
+            </p>
+            <p>
+            Feuriel fell.
+            </p>
+            <p>
+            But her eyes were still fixed on Teelo - still fighting nearby, still killing, mortally wounded but not yet dead. His insides were no longer inside. His glaives moved on instinct alone, rage,</p>
+            <p>
+            Feuriel did not descend. She hung on - broken, bleeding, dying - and reached out with something deeper than flesh.
+            </p>
+            <p>
+            A cloud of darkness erupted from her, coalescing around the centaur captain. Teelo's eyes went wide.
+            </p>
+            <p>
+            The darkness wrapped around him, through him, into him. Mel watched as Feuriel drained his life from his body - not quickly, not gently, but with terrible, absolute certainty. Teelo's face contorted with horror - pure, absolute horror, as if in those final seconds he had seen something that terrified him more than death itself.
+            </p>
+            <p>
+            He collapsed.
+            </p>
+            <p>
+            And as his body hit the ground, it began to change.
+            </p>
+            <p>
+            Feuriel saw it. Mel saw the confusion flash across her face - her last thought before she finally let go. Her broken body crumbled, her essence descending back to Hell, leaving behind only questions.
+            </p>
+            <p>
+            What had Teelo been? What had he served? And who had sent him here?
+            </p>
+            <hr class="journal">
+            <p>
+            There was no time to ponder mysteries.
+            </p>
+            <p>
+            "Go!" someone shouted. "South! Move!"
+            </p>
+            <p>
+            The surviving party members fled, leaving behind the burning city, the smoking crater, the bodies of their enemies - and whatever remained of their friends. Baloth ehad been slain, Feuriel was gone. Teelo lay coiled in the ash.
+            </p>
+            <p>
+            And somewhere in Bandito's coat, Mel suspected, the second fragment of the Fractum Ostium waited.
+            </p>
+            <p>
+            She ran. Her mechanical legs carried her swiftly, but her mind was already cataloging everything she had seen. The three-way battle. The deaths. The transformation.
+            </p>
+            <p>
+            <em>Data collection: extensive. Analysis: pending. Conclusion: insufficient information.</em>
+            </p>
+            <p>
+            "For once," Mel muttered, "we agree."
+            </p>
+
+            <h3 class="break">Week 16 - Picking Up The Pieces</h3>
+            <strong><em>as observed by Mel Selene</em></strong>
+
+            <p>
+                They returned to Hell carrying the weight of what they had witnessed.
+            </p>
+            <p>
+                Baloth was dead. Feuriel was dead. The second fragment of the Fractum Ostium was secured - hidden somewhere in Bandito's coat. And Teelo...
+            </p>
+            <p>
+                But death was not an escape from Enkosee's service. When Mel and her companions emerged from the portal back to Uman Yango, they were not alone.
+            </p>
+            <p>
+                Panulis met them in the hellish portal reception chamber. Large powerful devils stood guard, their eyes glowing with hostility, their forms filling the room with an oppressive presence. They glared at the party but said nothing.
+            </p>
+            <p>
+                Baloth and Feuriel were there.
+            </p>
+            <p>
+                The Drow necromancer looked... frayed. The edges of his being seemed worn, as if the fabric of his essence had been weakened by whatever force had claimed him above. Feuriel's condition was worse - her dark wings seemed thinner, her presence dimmer, as if something fundamental had been taken from her.
+            </p>
+            <p>
+                Neither spoke. Both avoided the party's gaze. They were back in service - for now - but something had changed.
+            </p>
+            <p>
+                Mel understood that this was no accident. They had died, but Enkosee had claimed them anyway. Death was not an escape.
+            </p>
+            <hr class="journal">
+            <p>
+                Enkosee waited in his study. His expression was congratulatory - pleased, even - as if they had received good news.
+            </p>
+            <p>
+                "As you know, I am somewhat a collector of rare curiosities," Enkosee said. "I had tasked another to search for this artifact, yet progress was slow. I was pleasantly surprised to find that you had taken the initiative."
+            </p>
+            <p>
+                He gestured to a table before him - objects arranged on red velvet pillows, gleaming in the infernal light.
+            </p>
+            <p>
+                "And here you are."
+            </p>
+            <p>
+                Enkosee confirmed what the party had suspected. The artifacts they had found - the fragment beneath the tree - were pieces of the Fractum Ostium. A device of immense power, capable of bending space itself. Long thought destroyed. Scattered across the planes.
+            </p>
+            <p>
+                Then he said something that caught Mel off guard.
+            </p>
+            <p>
+                "Since we are being open with one another, I must tell you that I too am a victim of this place. I have been trapped here for such a very long time. I too was betrayed by one I trusted. A profound injustice was done to me, and I intend to eventually set things right."
+            </p>
+            <p>
+                Mel studied him. The devil's expression was sincere - or appeared to be. He spoke of being trapped, of betrayal, of seeking freedom.
+            </p>
+            <em>Threat assessment: subject Enkosee exhibits emotional vulnerability. Probability of manipulation: 67%. Probability of genuine disclosure: uncertain.</em>
+            </p>
+            <p>
+                But Mel had spent a thousand years trapped in her own body, controlled by Modrons. She understood what it meant to want freedom.
+            </p>
+            <p>
+                "This device may well be my salvation," Enkosee continued, "indeed the salvation of all of us."
+            </p>
+            <p>
+                "I think this calls for a toast," he said, smiling. "Panulis, fetch the wine."
+            </p>
+            <hr class="journal">
+            <p>
+                The rewards were distributed.
+            </p>
+            <p>
+                Crokiak received what appeared to be a simple screwdriver - but Mel saw his expression shift when he examined the maker's mark. Something about it resonated with him.
+            </p>
+            <p>
+                Aldoon was given an iron mace. He seemed disappointed at first - a mace, for a Tempest cleric? - but then recognition sparked in his eyes. He had held this weapon before. Somewhere. Somewhen.
+            </p>
+            <p>
+                The Broken Man - Elusurm - was presented with a translucent gemstone. As Mel watched, it melded into his eye socket like it belonged there. He did not remove it.
+            </p>
+            <p>
+                Feuriel received a sword that seemed to hum with barely contained vengeance. Appropriate.
+            </p>
+            <p>
+                Baloth would have received a staff of withering - a quarterstaff, decrepit and withered, that sapped energy from the arm until its wielder wrested control. He was not there to receive it.
+            </p>
+            <p>
+                Bandito was given a ring - small, unassuming, but Mel saw the way his fingers lingered on it. A ring of evasion.
+            </p>
+            <p>
+                Szulsto was presented with boots of speed.
+            </p>
+            <p>
+                Verthandi received a tentacle rod - the illithid recognized it instantly, his tentacles curling with something that might have been desire.
+            </p>
+            <hr class="journal">
+            <p>
+                There was more discussion and research to locate the next piece. The party worked together, combining their knowledge, their research, their arcane and technical expertise.
+            </p>
+            <p>
+                The conclusion was clear: they needed to find the clockmaker. Keller Tegya. Hidden somewhere in the Shadowfell.
+            </p>
+            <p>
+                "The clockmaker would be able to make sense of this, I'm sure," Enkosee said. "I had hoped to avoid their involvement in this, but it seems we may have no choice, short of knocking on the doors of the Primus himself."
+            </p>
+            <p>
+                "You see, the clockmaker is a tad unpredictable. Very, very powerful. They are... not from this world. And they've not been seen in eons as far as I know."
+            </p>
+            <p>
+                "The good news is that I do know where they can be found. The bad news is that the only way to get there is through the Shadowfell."
+            </p>
+            <hr class="journal">
+            <p>
+                Enkosee presented two paths.
+            </p>
+            <p>
+                "The good news is that I do know where the clockmaker can be found. The bad news is that the only way to get there is through the Shadowfell. And the only way to reach the Shadowfell is via the Astral Plane - or through the Material Plane. Each has its own set of problems."
+            </p>
+            <p>
+                <strong>The Astral Plane.</strong> Travel by spelljammer - a magical flying ship. Fast but perilous. Vast expanses of nothing punctuated by pockets of violence and terror. Pirates. Illithids. Illithid pirates. Liches. The occasional dead god.
+            </p>
+            <p>
+                "Come to think of it," Enkosee mused, "it sounds rather exciting, doesn't it?"
+            </p>
+            <p>
+                Mel's internal systems stirred. She knew these vessels. She had served aboard one for centuries, bound to its operations, her consciousness partitioned and repurposed by Modron overlords. The mention of spelljammers sent a cascade of memory fragments through her processes - starlight on silver decks, the hum of a spelljamming helm, the void pressing against the hull.
+            </p>
+            <p>
+                Verthandi knew of these vessels too - in particular, the nautiloid, a living ship fashioned from mutated kraken, favoured by mind flayers. Crokiak's people had escaped on such ships long ago, splitting into the militant Githyanki and monastic Githzerai. Githyanki pirates were a fierce menace in the Astral.
+            </p>
+            <p>
+                <em>Threat assessment: Githyanki raiders - high probability of hostile engagement. Historical data: they killed my crew. They nearly killed me.</em> Mel's optical sensors dimmed slightly as she processed the memory. The ambush. The screams.
+            </p>
+            <p>
+                "The thought of Illithid nautilloids troubles me," Mel said finally, her voice measured, "but with Verthandi by our side, I have no fear." She paused. "As for the Githyanki... if we encounter them, it will be time for some long overdue justice."
+            </p>
+            <p>
+                <em>Optimism index: cautiously elevated. Risk assessment: acceptable. Emotional subroutine: unresolved grief and anger detected. Acknowledged.</em>
+            </p>
+            <p>
+                <strong>The Material Plane.</strong> The one they all knew - humans, dwarves, gnomes, elves. Familiar territory. More likely to encounter trouble, but also more likely to survive it.
+            </p>
+            <p>
+                "The tricky part," Enkosee continued, "will be suitably motivating Manshoon into granting access to his portal. If you want to go this way, I can see what I can do to facilitate this."
+            </p>
+            <p>
+                Mel considered. The Material Plane meant dealing with Manshoon - a wizard of considerable power and questionable allegiance. It meant navigating political currents she had little data on. But it also meant solid ground. Familiar skies. A world where the laws of nature still applied, where gravity was constant and death was permanent.
+            </p>
+            <p>
+                <em>Comparative analysis: Astral Plane offers speed and directness but high combat probability. Material Plane offers familiarity but requires diplomatic maneuvering. Either path demands resources we may not have.</em>
+            </p>
+            <p>
+                She said nothing. The decision was not hers to make.
+            </p>
+            <hr class="journal">
+            <p>
+                She noticed him by his stillness. The Broken Man had seated himself in a corner of the chamber, eyes closed, deep in meditation. Some sort of ritual. Mel observed from a distance, her Modron sensors cataloguing his breathing patterns, the subtle shifts in his posture.
+            </p>
+            <p>
+                <em>Subject Elusurm: attempting some form of arcane communion. Probability of success: unknown. Emotional state: isolated.</em>
+            </p>
+            <p>
+                Time passed. Mel was not certain how much - her temporal processors had learned to let such things drift in this place.
+            </p>
+            <p>
+                Then Elusurm opened his eyes.
+            </p>
+            <p>
+                And immediately flinched, grabbing his head, a look of intense vertigo crossing his patchwork features.
+            </p>
+            <p>
+                Mel stepped forward, concerned. "Report status - I mean, are you -"
+            </p>
+            <p>
+                But Elusurm wasn't looking at her. He was looking at the room. And the room, from his perspective, was wrong.
+            </p>
+            <p>
+                Everything was upside down.
+            </p>
+            <p>
+                Mel stood on what he perceived as the ceiling. The furniture, the bookshelves, Enkosee's curiosities - all suspended above him, defying gravity. He tried to stand and felt his sense of balance revolt entirely.
+            </p>
+            <p>
+                Then he blinked.
+            </p>
+            <p>
+                And the room was right-side up again.
+            </p>
+            <p>
+                Elusurm's eyes - one flesh, one crystalline gemstone - darted upward to the corner of the ceiling. To what had appeared to be a mineral outgrowth, natural stone formation, part of the chamber's architecture.
+            </p>
+            <p>
+                Only now it moved.
+            </p>
+            <p>
+                A lizard. But not like any lizard Mel had catalogued before. Its body was crystalline in structure, translucent, refracting the surfaces it passed over - sulfurous yellow when crossing brimstone, rocky grey when moving over stone. It moved slowly, deliberately, descending from its perch on the ceiling with careful grace.
+            </p>
+            <p>
+                <em>Classification: unknown. Composition: crystalline organic matrix. Magical signature: familiar bond forming.</em>
+            </p>
+            <p>
+                Elusurm extended a hand toward the ceiling. The creature crawled onto his palm, then down his arm, coming to rest upon his shoulders. Its tail draped down one side of his neck, its head settling near his ear on the other. It seemed to savour whatever warmth emanated from the elemental engine that powered Elusurm's reconstructed body.
+            </p>
+            <p>
+                Then, softly, in a voice like wind through crystal, it spoke:
+            </p>
+            <p>
+                "Not alone."
+            </p>
+            <p>
+                Elusurm's expression shifted. Something cracked open behind his eyes - not pain, not quite. Recognition. Connection.
+            </p>
+            <p>
+                Elusurm said nothing. But as he left the chamber, the salamander still resting on his shoulders, he walked differently. Lighter.
+            </p>
+            <h3 class="break">Week 17 - Setting Sail on the Silvery Seas</h3>
+            <strong><em>as observed by Szulsto (Simon Pancoast)</em></strong>
+
+            <p>Szulsto sat meditating on the ship deck, looking back at everything that had happened. So much had occurred in to last few nights. He had been tasked with following a new group of Enkosee’s slaves. He had hoped that they would be more competent than his previous group.  They had been to rigid, too unwilling to accept what was happening to them. This caused their sanities to crumble. Szulto had learned from their mistakes. He accepted what was happening to him. When one falls into a stream with a strong current, one does not escape it by swimming directly into the current. They must swim diagonally and with the current, slowly but surely making it to the bank.</p>
+            <p>After Szulsto met up with the group, he discovered that they had been tasked with discovering parts of a powerful Modron artifact, the Fractum Ostium. One of the pieces they had found under a sentient dryad/tree creature who had seemingly sacrificed itself to attempt to protect the village it was in the center of. The other piece was inside one of the party members, Mel. He himself was given his own, independent task; to keep the party sane. Unfortunately, two party members, Furiel, the fallen angel, and Baloth, the Drow necromancer, died while recovering the artifact from the tree. Szulsto hated it when this happened, as this had a great chance of damaging the sanity of whoever dies and is resurrected in hell once more.</p>
+            <p>The party, after receiving their rewards, was led by both Enkosee and Crokiak, the artificer, to the library to do research on the piece of the artifact they had found under the tree.  Szulsto, almost liked Enkosee. He respected his cunning and knew him to be a powerful being.  They discovered that there were more parts to find, and that they needed to travel to figure out more on the whereabouts of one of the parts.</p>
+            <p>The party also discovered that the piece of the artifact they had found could be charged.  Szulsto discovered that he could charge it with Psychic energy, and Aldoon, the cleric of storms, charged it with his clerical powers. The artifact allowed those holding it to teleport a respectable distance, ‘Sssomething that the party would certainly be able to take advantage of,’ Szulsto thought. ‘At leassst it can be charged with Psssychic might, not jussst magic.’ After charging the artifact piece again, the party made the decision to travel by boat on the Astral Plane. Enkosee, being the horrible, clever being he is, employed the same Githyanki pirates who had raided and almost killed Mel and had killed her fellow sailors. They set out, going out into the Astral plane.</p>
+            <p>Szulsto came out of his revelry, feeling his psychic powers returning and his mind becoming more cemented into his new reality. ‘Ssswim diagonally with the current’, he thought to himself. Sudenlly, Baloth shouted, “Something’s over there!” Everyone looked, and suddenly the crew of the ship turned around quickly and started sailing at top speed away from something… large. Some kind of blob racing towards the ship at an alarming rate. Szulsto reached out, finding the psyches of each of his fellow party members and sending them a quick telepathic message: “Sssomething isss coming. Prepare yourssselvesss.” Szulsto himself braced, readying himself for possible conflict.</p>
+
+            <h3 class="break">Week 18 - The Psychic Storm</h3>
+            <strong><em>as observed by Mel Selene</em></strong>
+
+            <p>
+                The alert came without warning.
+            </p>
+            <p>
+                Szulsto's voice echoed through the ship - not spoken, but projected directly into their minds: *Sssomething isss coming. Prepare yourssselvesss.*
+            </p>
+            <p>
+                Mel's combat subroutines engaged before conscious thought could catch up. She was already moving toward the rail, her optical sensors scanning the silver void.
+            </p>
+            <p>
+                What she saw made her processes stutter.
+            </p>
+            <p>
+                A mass of pink translucent... nothing and everything. An amorphous cloud that seemed to fold space around itself, tendrils extending and retracting like the breathing of some vast organ. It moved with purpose. It moved toward them.
+            </p>
+            <p>
+                 <em>Classification: unknown. Threat level: extreme. Composition: psychic energy matrix, possibly construct in nature.</em>
+            </p>
+            <p>
+                The crew was already scrambling. Captain Kidic barked orders in Gith, and the ship's two ballistae swivelled toward the approaching horror. Mate Xokoth was loading bolts - Mel noted the faint shimmer of enchantment on the ammunition. Flaming. Acid. And something else - psychic dampeners, perhaps.
+            </p>
+            <p>
+                "They must have encountered these before," Crokiak muttered beside her.
+            </p>
+            <p>
+                "Or they're just thorough," Mel replied.
+            </p>
+            <p>
+                 <em>Threat assessment: entity is attracted to psionic energy. Vessel contains Githyanki crew - naturally psionic. Party members Szulsto, Verthandi - psionically active. Probability of pursuit: 100%. Probability of engagement: 100%.</em>
+            </p>
+            <p>
+                The Psychic Storm closed the distance with horrifying speed.
+            </p>
+            <hr class="journal">
+            <p>
+                The first tendril lashed out like a whip made of pure thought.
+            </p>
+            <p>
+                It struck the hull, and Mel felt it - not physically, but mentally. A screech of psychic static that made her vision fragment and her audio processors emit a high whine of feedback. Around her, she saw others grab their heads, stagger, cry out.
+            </p>
+            <p>
+                The ballistae fired. One bolt tore through the mass, trailing acid that hissed and dissolved into nothing. The Storm recoiled, then surged forward again, angrier now.
+            </p>
+            <p>
+                Combat dissolved into chaos.
+            </p>
+            <p>
+                Mel found herself fighting alongside the Githyanki crew - a strange inversion of everything she had believed about her existence. She had sworn vengeance on their kind. She had dreamed of watching them die. And now she was fighting to defend them.
+            </p>
+            <p>
+                A tendril swept across the deck. Three Gith sailors were caught - lifted, thrashing, their minds screaming before they were hurled into the void. Two recovered. One did not.
+            </p>
+            <p>
+                The Storm pressed closer.
+            </p>
+            <hr class="journal">
+            <p>
+                It was in the third exchange that Mel saw her chance.
+            </p>
+            <p>
+                The Githyanki - she had not learned his name, would never learn his name - was standing near the starboard rail, crossbow raised, firing bolt after bolt into the roiling mass. His attention was fixed entirely on the enemy. No one was watching him.
+            </p>
+            <p>
+                No one except Mel.
+            </p>
+            <p>
+                 <em>Target of opportunity: acquired.</em>
+            </p>
+            <p>
+                She did not think about it. Did not deliberate. Her body moved with the precision of a thousand years of programmed reflex, her metal hand closing around his shoulder, her weight shifting, her momentum carrying them both toward the edge.
+            </p>
+            <p>
+                She stopped herself at the rail.
+            </p>
+            <p>
+                He did not stop.
+            </p>
+            <p>
+                The Githyanki had time to turn his head, time for his eyes to widen in surprise, time to open his mouth to shout -
+            </p>
+            <p>
+                And then he was gone. Falling into the silver void. Falling toward the Psychic Storm.
+            </p>
+            <p>
+                His scream did not last long.
+            </p>
+            <p>
+                 <em>Target neutralized. Witnesses: none detected.</em>
+            </p>
+            <p>
+                Mel turned back to the fight.
+            </p>
+            <p>
+                The Storm shuddered. The combined assault - ballistae, spells, blades, psychic fury - had taken its toll. The mass was losing cohesion, its tendrils withdrawing, its movements sluggish.
+            </p>
+            <p>
+                It had had enough.
+            </p>
+            <p>
+                With a final pulse of psychic static that left half the crew staggering, the Storm peeled away into the void, retreating into the silver distances from which it had come.
+            </p>
+            <p>
+                The Drakkaro was saved.
+            </p>
+            <p>
+                Three crew members were gone.
+            </p>
+            <p>
+                Mel felt nothing.
+            </p>
+            <hr class="journal">
+            <p>
+                The ship was damaged.
+            </p>
+            <p>
+                Not catastrophically - the hull remained intact, the spelljamming helm still hummed with power - but enough that Captain Kidic refused to press on without repairs. A day, perhaps two. They needed shelter.
+            </p>
+            <p>
+                She found it.
+            </p>
+            <p>
+                A rock. An asteroid, really - a chunk of primordial debris floating in the endless silver. Large enough to provide cover, stable enough to anchor the ship. Dead enough to be safe.
+            </p>
+            <p>
+                 <em>Or so we thought.</em>
+            </p>
+            <p>
+                The captain ordered the ship brought alongside. Crew members secured lines, began the painstaking process of assessing damage. The party was granted leave to rest - or to explore, if they chose.
+            </p>
+            <p>
+                Mel chose to stay aboard initially. Her systems needed recalibration after the psychic assault, and she had... processing to do.
+            </p>
+            <p>
+                 <em>Event log: Githyanki crew member, unidentified, deceased. Cause of death: fell from deck during combat. Contributing factor: Mel Selene. Classification: combat casualty. Alternate classification: murder. Emotional response: ...inconclusive.</em>
+            </p>
+            <p>
+                She had killed before. In self-defence. In service. In accident.
+            </p>
+            <p>
+                She had never killed for revenge.
+            </p>
+            <p>
+                The feeling was not what she had expected. It was not satisfaction - or if it was, it was a hollow satisfaction, an ache rather than a triumph. A thousand years of rage, and this was what it felt like to begin satisfying it?
+            </p>
+            <p>
+                 <em>Analysis: insufficient data. Further observation required.</em>
+            </p>
+            <p>
+                While the crew worked, some of the party chose to explore.
+            </p>
+            <p>
+                Mel joined them eventually - her processing was going nowhere, and movement was preferable to sitting with her thoughts. Crokiak came. Bandito. Verthandi, his tentacles twitching with curiosity. Two of the Githyanki - Qa'adas and Yloth - accompanied them, crossbows ready.
+            </p>
+            <p>
+                The asteroid's surface was barren. Crystalline formations jutted from grey stone, refracting the ambient light of the Astral into prismatic patterns. There was no atmosphere here, but that was no obstacle to beings who had learned to survive in stranger places.
+            </p>
+            <p>
+                They found the entrance almost by accident.
+            </p>
+            <p>
+                A crack in the rock face that widened into a tunnel, carved rather than natural. The edges were too smooth, the angle too deliberate. Someone - something - had made this.
+            </p>
+            <p>
+                "Intriguing," Crokiak murmured, producing a small device that hummed with arcanic detection.
+            </p>
+            <p>
+                They ventured inside.
+            </p>
+            <p>
+                The tunnel system was more extensive than it appeared.
+            </p>
+            <p>
+                Branching passages led off into darkness, and at the first junction, the Githyanki peeled away to investigate. Qa'adas gestured vaguely - <em>we'll check these, you check those</em> - and then they were gone, their footsteps fading into silence.
+            </p>
+            <p>
+                The party continued forward.
+            </p>
+            <p>
+                What they found made even Mel's processors pause.
+            </p>
+            <p>
+                A chamber. Circular. Lit by some phosphorescent lichen that clung to the walls in patches of pale blue. And at the centre -
+            </p>
+            <p>
+                A capsule. Sealed. Transparent.
+            </p>
+            <p>
+                Inside it, suspended in some sort of green viscous fluid, was an illithid.
+            </p>
+            <p>
+                 <em>Classification: Mind Flayer. Status: dormant? Undergoing transformation? Data: insufficient.</em>
+            </p>
+            <p>
+                The creature's tentacles drifted lazily in its suspension medium. Its body was... changing. Swelling in places, contracting in others. As if it were being remade from the inside out.
+            </p>
+            <p>
+                Verthandi approached the capsule. His own tentacles extended, almost reverent, and Mel saw his eyes close in concentration.
+            </p>
+            <p>
+                 <em>Psionic communication: initiated.</em>
+            </p>
+            <p>
+                She could not hear what passed between them - Verthandi's abilities far exceeded her own psionic receptors - but she watched his expression shift. Curiosity. Recognition. Something that might have been concern.
+            </p>
+            <p>
+                "It is... undergoing a process," Verthandi said finally, his voice soft. "A transformation. It has been here for some time. It says it does not wish us harm. It merely... waits."
+            </p>
+            <p>
+                Mel studied the suspended illithid. She had no love for mind flayers - few did - but this one seemed pitiable rather than threatening. A prisoner of its own metamorphosis.  For now.
+            </p>
+            <p>
+                 <em>Threat assessment: minimal. Entity is incapacitated. Probability of hostile action: near zero.</em>
+            </p>
+            <p>
+                The rest of the chamber held more horrors - or more curiosities, depending on one's perspective.
+            </p>
+            <p>
+                Suspension tanks lined the walls. Inside them, small quadrupedal creatures floated - intellect devourers, their brain-like bodies twitching occasionally. Some tanks were occupied. Others were empty.
+            </p>
+            <p>
+                Verthandi's attention fixed on one of the occupied tanks.
+            </p>
+            <p>
+                "May I?" he asked, to no one in particular.
+            </p>
+            <p>
+                Before anyone could respond, he had detached the tank from its mounting, cradling it with surprising gentleness. The intellect devourer inside seemed to pulse with awareness.
+            </p>
+            <p>
+                 <em>Observation: Verthandi has acquired an intellect devourer. Purpose: unknown. Risk: potentially significant. Action: none recommended at this time.</em>
+            </p>
+            <p>
+                The party exchanged glances. No one objected. No one dared.
+            </p>
+            <p>
+                They left as they had come.
+            </p>
+            <p>
+                The illithid remained in its capsule, dreaming its transformation. The intellect devourers remained in their tanks - minus one. The Githyanki returned from their side explorations with nothing to report but empty passages and ancient dust.
+            </p>
+            <p>
+                The asteroid was a mystery, but it was not their mystery.
+            </p>
+            <p>
+                The ship awaited.
+            </p>
+            <p>
+                 <em>Mission status: ongoing. Next objective: Shadowfell. Current location: Astral Plane, adrift. Emotional analysis: unease. The illithid was not hostile. The intellect devourers were contained. But the empty tanks...</em>
+            </p>
+            <p>
+                Mel filed the observation away and climbed back aboard the Drakkaro.
+            </p>
+            <p>
+                The repairs would be complete by morning.
+            </p>
         </div>
     </body>
 </html>
